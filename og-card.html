@@ -1,0 +1,108 @@
+<!doctype html>
+<!-- Source for public/og.png. Render at 1200x630 and screenshot:
+     open in a 1200x630 viewport and capture. Kept in-repo for reproducibility;
+     not served (only public/ is static). -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1200px; height: 630px; }
+      body {
+        background:
+          radial-gradient(900px 600px at 78% -15%, #221a3d 0%, rgba(34,26,61,0) 60%),
+          #0f1115;
+        color: #e7e9ee;
+        font-family: ui-sans-serif, system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        padding: 70px 76px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        overflow: hidden;
+      }
+      .kicker {
+        font-size: 22px;
+        letter-spacing: 0.34em;
+        text-transform: uppercase;
+        color: #8a93a4;
+        font-weight: 700;
+      }
+      .content { position: relative; z-index: 2; max-width: 600px; }
+      h1 {
+        font-size: 92px;
+        line-height: 0.98;
+        letter-spacing: -0.03em;
+        font-weight: 800;
+        margin-top: 10px;
+      }
+      h1 .accent { color: #7c5cff; }
+      .sub {
+        font-size: 31px;
+        line-height: 1.32;
+        color: #b9c0cc;
+        margin-top: 22px;
+        max-width: 560px;
+      }
+      .footer { position: relative; z-index: 2; display: flex; align-items: center; gap: 16px; font-size: 30px; font-weight: 700; }
+      .footer .robot { font-size: 46px; }
+      .footer .url { color: #7c5cff; }
+      .cards {
+        position: absolute;
+        right: -80px;
+        top: 60px;
+        display: flex;
+        gap: 22px;
+        transform: rotate(8deg);
+        z-index: 1;
+        opacity: 0.92;
+      }
+      .mini {
+        width: 226px;
+        height: 300px;
+        background: #171a21;
+        border: 1px solid #2a2f3a;
+        border-radius: 20px;
+        padding: 24px;
+        box-shadow: 0 30px 60px rgba(0,0,0,0.45);
+      }
+      .mini.ai { border-color: #7c5cff; }
+      .mini .tag { font-size: 17px; letter-spacing: 0.18em; text-transform: uppercase; color: #8a93a4; }
+      .mini.ai .tag { color: #7c5cff; }
+      .bar { height: 13px; background: #262b36; border-radius: 7px; margin-top: 15px; }
+    </style>
+  </head>
+  <body>
+    <div class="cards">
+      <div class="mini">
+        <div class="tag">Passage A</div>
+        <div class="bar" style="width:96%"></div>
+        <div class="bar" style="width:88%"></div>
+        <div class="bar" style="width:92%"></div>
+        <div class="bar" style="width:70%"></div>
+        <div class="bar" style="width:84%"></div>
+        <div class="bar" style="width:46%"></div>
+      </div>
+      <div class="mini ai">
+        <div class="tag">Passage B</div>
+        <div class="bar" style="width:90%"></div>
+        <div class="bar" style="width:94%"></div>
+        <div class="bar" style="width:80%"></div>
+        <div class="bar" style="width:88%"></div>
+        <div class="bar" style="width:62%"></div>
+        <div class="bar" style="width:38%"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="kicker">Human, or machine?</div>
+      <h1>Spot the <span class="accent">AI</span></h1>
+      <div class="sub">Two short passages. One written by a human author, one by Claude. Can you tell which is which?</div>
+    </div>
+
+    <div class="footer">
+      <span class="robot">🤖</span>
+      <span>Play at <span class="url">spot-the-ai.oiatc.ca</span></span>
+    </div>
+  </body>
+</html>
