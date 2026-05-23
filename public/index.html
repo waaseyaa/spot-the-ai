@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Spot the AI</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>" />
     <script src="https://unpkg.com/vue@3.5.13/dist/vue.global.prod.js"></script>
     <style>
       :root {
@@ -72,6 +73,66 @@
         background: var(--accent);
         color: white;
       }
+      .stats-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 4vh 1rem;
+        z-index: 50;
+        font-family: ui-sans-serif, system-ui, sans-serif;
+      }
+      .stats-modal {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 1.5rem;
+        max-width: 540px;
+        width: 100%;
+        max-height: 90vh;
+        overflow-y: auto;
+        position: relative;
+      }
+      .stats-modal h2 { margin: 0 0 1rem; font-size: 1.3rem; }
+      .stats-modal h3 { margin: 1.5rem 0 0.5rem; font-size: 0.95rem; color: var(--muted); font-weight: 600; }
+      .stats-close {
+        position: absolute;
+        top: 0.75rem;
+        right: 1rem;
+        background: none;
+        border: 0;
+        color: var(--muted);
+        font-size: 1.6rem;
+        line-height: 1;
+        cursor: pointer;
+      }
+      .stat-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0.75rem;
+      }
+      @media (max-width: 480px) { .stat-grid { grid-template-columns: repeat(2, 1fr); } }
+      .stat {
+        background: var(--bg);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 0.85rem 0.5rem;
+        text-align: center;
+      }
+      .stat .big { font-size: 1.5rem; font-weight: 700; color: var(--accent); font-variant-numeric: tabular-nums; }
+      .stat .cap { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; margin-top: 0.25rem; }
+      .stat-list { list-style: none; padding: 0; margin: 0.25rem 0 0; }
+      .stat-list li {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 0.4rem 0;
+        border-bottom: 1px solid var(--border);
+        font-size: 0.9rem;
+      }
+      .stat-list .muted { color: var(--muted); white-space: nowrap; }
       .prompt {
         text-align: center;
         color: var(--muted);
@@ -191,6 +252,7 @@
           <button v-if="played > 0" class="share" @click="share">
             {{ copied ? 'Copied!' : 'Share' }}
           </button>
+          <button class="share" @click="openStats">Stats</button>
         </div>
       </header>
 
@@ -230,6 +292,36 @@
           <button class="primary" :disabled="loading" @click="nextRound">Next round</button>
         </div>
       </template>
+
+      <div v-if="statsOpen" class="stats-overlay" @click.self="statsOpen = false">
+        <div class="stats-modal">
+          <button class="stats-close" @click="statsOpen = false">×</button>
+          <h2>Global stats</h2>
+          <div v-if="!stats" class="loading">Loading…</div>
+          <template v-else>
+            <div class="stat-grid">
+              <div class="stat"><div class="big">{{ stats.accuracy }}%</div><div class="cap">human accuracy</div></div>
+              <div class="stat"><div class="big">{{ stats.total_guesses }}</div><div class="cap">guesses</div></div>
+              <div class="stat"><div class="big">{{ stats.unique_sessions }}</div><div class="cap">players</div></div>
+              <div class="stat"><div class="big">{{ stats.avg_decide_ms ? (stats.avg_decide_ms/1000).toFixed(1)+'s' : '—' }}</div><div class="cap">avg decision</div></div>
+            </div>
+            <h3 v-if="stats.hardest_passages.length">Most convincing AI passages</h3>
+            <ul class="stat-list">
+              <li v-for="p in stats.hardest_passages" :key="p.pool_id">
+                <span>{{ shortSource(p.human_source) }}</span>
+                <span class="muted">{{ p.accuracy }}% spotted · {{ p.plays }} plays</span>
+              </li>
+            </ul>
+            <h3 v-if="stats.by_country.length">By country</h3>
+            <ul class="stat-list">
+              <li v-for="c in stats.by_country" :key="c.country">
+                <span>{{ c.country }}</span>
+                <span class="muted">{{ c.accuracy }}% · {{ c.plays }} plays</span>
+              </li>
+            </ul>
+          </template>
+        </div>
+      </div>
     </main>
 
     <script>
@@ -247,6 +339,49 @@
           const copied = ref(false);
 
           const SHARE_URL = 'https://spot-the-ai.oiatc.ca';
+
+          // Anonymous, account-free identity + cross-visit persistence.
+          const SESSION_KEY = 'sta_session_v1';
+          const STATE_KEY = 'sta_state_v1';
+          function loadSession() {
+            let id = localStorage.getItem(SESSION_KEY);
+            if (!id) {
+              id = (crypto.randomUUID && crypto.randomUUID()) ||
+                String(Date.now()) + Math.random().toString(16).slice(2);
+              localStorage.setItem(SESSION_KEY, id);
+            }
+            return id;
+          }
+          const sessionId = loadSession();
+          let roundShownAt = 0;
+
+          try {
+            const saved = JSON.parse(localStorage.getItem(STATE_KEY) || '{}');
+            if (Number.isFinite(saved.score)) score.value = saved.score;
+            if (Number.isFinite(saved.played)) played.value = saved.played;
+            if (Array.isArray(saved.history)) history.value = saved.history.slice(-50);
+          } catch (e) { /* ignore corrupt state */ }
+          function persist() {
+            try {
+              localStorage.setItem(STATE_KEY, JSON.stringify({
+                score: score.value, played: played.value, history: history.value.slice(-50),
+              }));
+            } catch (e) { /* storage full or blocked */ }
+          }
+
+          const statsOpen = ref(false);
+          const stats = ref(null);
+          async function openStats() {
+            statsOpen.value = true;
+            stats.value = null;
+            try {
+              stats.value = await fetch('/api/stats').then((r) => r.json());
+            } catch (e) {
+              statsOpen.value = false;
+              error.value = 'stats unavailable';
+            }
+          }
+          const shortSource = (s) => (s ? s.split(/,| by /)[0] : 'unknown');
 
           const accuracy = computed(() =>
             played.value === 0 ? 0 : Math.round((score.value / played.value) * 100),
@@ -297,9 +432,12 @@
             result.value = null;
             round.value = null;
             try {
-              const res = await fetch('/api/round');
+              const params = new URLSearchParams({ s: sessionId });
+              if (document.referrer) params.set('ref', document.referrer);
+              const res = await fetch('/api/round?' + params.toString());
               if (!res.ok) throw new Error((await res.json()).error || 'round failed');
               round.value = await res.json();
+              roundShownAt = performance.now();
             } catch (e) {
               error.value = e.message;
             } finally {
@@ -313,7 +451,14 @@
               const res = await fetch('/api/guess', {
                 method: 'POST',
                 headers: { 'content-type': 'application/json' },
-                body: JSON.stringify({ roundId: round.value.roundId, pick: side }),
+                body: JSON.stringify({
+                  roundId: round.value.roundId,
+                  pick: side,
+                  sessionId,
+                  decideMs: roundShownAt ? performance.now() - roundShownAt : null,
+                  sessionRoundN: played.value + 1,
+                  viewportW: window.innerWidth,
+                }),
               });
               if (!res.ok) throw new Error((await res.json()).error || 'guess failed');
               const data = await res.json();
@@ -321,6 +466,7 @@
               played.value += 1;
               history.value.push(data.correct);
               if (data.correct) score.value += 1;
+              persist();
             } catch (e) {
               error.value = e.message;
             }
@@ -340,6 +486,7 @@
           return {
             round, result, loading, error, score, played, accuracy,
             copied, nextRound, guess, sideIsAi, cardClass, share,
+            statsOpen, stats, openStats, shortSource,
           };
         },
       }).mount('#app');

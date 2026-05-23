@@ -9,6 +9,7 @@
     "generate": "node generate-pool.js"
   },
   "dependencies": {
+    "better-sqlite3": "^11.8.1",
     "express": "^4.21.2"
   },
   "devDependencies": {
