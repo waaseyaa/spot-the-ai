@@ -1,0 +1,422 @@
+[
+  {
+    "id": "moby-1-v0",
+    "humanId": "moby-1",
+    "humanSource": "Moby-Dick by Herman Melville (1851), Project Gutenberg",
+    "humanText": "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen, and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; then, I account it high time to get to sea as soon as I can.",
+    "aiText": "I cannot say with certainty when the compulsion first took hold of me, though I suspect it predates any memory I possess of solid ground beneath my feet. There are mornings when the streets of this city press upon my chest like a slow, deliberate weight, and I find myself standing at some ordinary corner, unable to name what I lack, yet knowing precisely where it may be recovered. The smell reaches me before reason does—salt, distance, something half-forgotten. My feet require no instruction then. I have tried to cure this restlessness through occupation, through society, through the affectionate counsel of those who love dry land without apology, and I have failed entirely."
+  },
+  {
+    "id": "moby-1-v1",
+    "humanId": "moby-1",
+    "humanSource": "Moby-Dick by Herman Melville (1851), Project Gutenberg",
+    "humanText": "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen, and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; then, I account it high time to get to sea as soon as I can.",
+    "aiText": "There is a restlessness that overtakes me in autumn, when the leaves go brittle and the city smells of coal smoke and wet stone, and I find myself standing at windows I have no business standing at, watching nothing. My wife calls it melancholy; my physician calls it nerves; I have learned to call it simply the turning of a tide within me that no inland remedy will answer. I have tried work, and prayer, and the company of reasonable men, and each has failed me in the same quiet, thorough way. The sea does not fail me."
+  },
+  {
+    "id": "moby-1-v2",
+    "humanId": "moby-1",
+    "humanSource": "Moby-Dick by Herman Melville (1851), Project Gutenberg",
+    "humanText": "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen, and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; then, I account it high time to get to sea as soon as I can.",
+    "aiText": "I have walked inland roads for months at a stretch, persuading myself that fields and market towns were sufficient for a man of my temperament. They are not. Something in my constitution resists the attempt entirely, and I find the deception exhausting long before the season turns. It is not romance that draws me back — I am past that foolishness — but rather a kind of bodily imperative, as though my blood had tides of its own and grew sluggish when denied their correspondence. I return to the coast the way a debtor returns to his creditor: not gladly, but knowing the account must be settled."
+  },
+  {
+    "id": "moby-1-v3",
+    "humanId": "moby-1",
+    "humanSource": "Moby-Dick by Herman Melville (1851), Project Gutenberg",
+    "humanText": "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen, and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; then, I account it high time to get to sea as soon as I can.",
+    "aiText": "My father was a clerk, and his father before him, and I had every reason to expect the same. The ledger, the inkwell, the window giving onto a courtyard — these were my inheritance. But when I was not yet twenty, something drew me east through the city streets toward the docks, not from curiosity or idleness but from a need I could not then name, as a man might walk in fever toward water. I have since come to understand that the sea does not call to everyone; it selects, quietly and without explanation, and those it selects have little say in the matter."
+  },
+  {
+    "id": "moby-1-v4",
+    "humanId": "moby-1",
+    "humanSource": "Moby-Dick by Herman Melville (1851), Project Gutenberg",
+    "humanText": "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen, and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; then, I account it high time to get to sea as soon as I can.",
+    "aiText": "Something calls me back before I have properly left. I will be seated at my desk, the lamp burning low, the papers of some ordinary transaction spread before me, and then — without warning — I become aware of salt on my lips, though I am thirty miles from the coast and the window is shut fast. My physician calls it nerves. He is not wrong, exactly, but he names only the instrument and mistakes it for the cause. What draws me is older than any illness I know how to describe, and it does not ask permission before it comes."
+  },
+  {
+    "id": "pride-1-v0",
+    "humanId": "pride-1",
+    "humanSource": "Pride and Prejudice by Jane Austen (1813), Project Gutenberg",
+    "humanText": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife. However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered the rightful property of some one or other of their daughters. My dear Mr. Bennet, said his lady to him one day, have you heard that Netherfield Park is let at last?",
+    "aiText": "It is a circumstance equally well understood, that a widow in possession of a moderate jointure will, upon the death of her husband, find herself possessed also of several new opinions concerning her daughters' prospects. The neighbourhood, which had said nothing particular about the girls for years, discovers at once that Miss Clara has a fine complexion and Miss Harriet plays tolerably well. Mr. Ashford's estate produces four thousand a year, and this figure, repeated in enough parlours, acquires the settled authority of natural law."
+  },
+  {
+    "id": "pride-1-v1",
+    "humanId": "pride-1",
+    "humanSource": "Pride and Prejudice by Jane Austen (1813), Project Gutenberg",
+    "humanText": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife. However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered the rightful property of some one or other of their daughters. My dear Mr. Bennet, said his lady to him one day, have you heard that Netherfield Park is let at last?",
+    "aiText": "That a daughter with neither fortune nor beauty should be considered a burden upon her family is a proposition few fathers would openly dispute, though fewer still would confess to having calculated the precise sum she might cost them before her first season was concluded. The entailment of Harbury Chase upon a distant male cousin was therefore received by Mrs. Fellowes not as a legal curiosity but as a personal grievance, the law having conspired with Providence to make her five daughters its particular victims. She had always disliked lawyers."
+  },
+  {
+    "id": "pride-1-v2",
+    "humanId": "pride-1",
+    "humanSource": "Pride and Prejudice by Jane Austen (1813), Project Gutenberg",
+    "humanText": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife. However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered the rightful property of some one or other of their daughters. My dear Mr. Bennet, said his lady to him one day, have you heard that Netherfield Park is let at last?",
+    "aiText": "It is generally agreed among persons of sense that the entailment of an estate produces, as its most reliable fruit, not legal complexity but matrimonial urgency. A father of five daughters and a property held in tail male will find that his neighbors grow suddenly attentive to his health. The solicitude directed toward Mr. Hawford during his bout of winter fever was remarkable; his wife received more callers in a fortnight than she had entertained in the preceding three years, and each departed having somehow introduced a son into the conversation."
+  },
+  {
+    "id": "pride-1-v3",
+    "humanId": "pride-1",
+    "humanSource": "Pride and Prejudice by Jane Austen (1813), Project Gutenberg",
+    "humanText": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife. However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered the rightful property of some one or other of their daughters. My dear Mr. Bennet, said his lady to him one day, have you heard that Netherfield Park is let at last?",
+    "aiText": "It has long been observed that a young man of moderate expectations becomes, upon the death of a wealthy uncle, a considerably more interesting conversationalist. The aunts who once found his opinions tiresome now discover surprising evidence of good sense in everything he says. His mother, for her part, had always known it would be so. Whether the three unmarried daughters of Colonel Fairfax shared this retrospective admiration was a question nobody troubled to ask, their feelings being, as usual, the last consideration in any arrangement that principally concerned them."
+  },
+  {
+    "id": "pride-1-v4",
+    "humanId": "pride-1",
+    "humanSource": "Pride and Prejudice by Jane Austen (1813), Project Gutenberg",
+    "humanText": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife. However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered the rightful property of some one or other of their daughters. My dear Mr. Bennet, said his lady to him one day, have you heard that Netherfield Park is let at last?",
+    "aiText": "The eldest Miss Hartley had now been out three seasons without attracting an offer of any consequence, a fact her mother attributed entirely to the war and her father to the girl's unfortunate habit of reading. The neighbouring families were more charitable, and assigned the blame to a fortune of only four thousand pounds, which in that county purchased very little admiration. Her younger sister, at sixteen, had already received two letters that required burning."
+  },
+  {
+    "id": "tale-1-v0",
+    "humanId": "tale-1",
+    "humanSource": "A Tale of Two Cities by Charles Dickens (1859), Project Gutenberg",
+    "humanText": "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way.",
+    "aiText": "It was the hour of crowns, it was the hour of scaffolds, it was the dawn of republics, it was the dusk of kings, it was the cry of the liberated, it was the silence of the buried, it was a world remade in fire, it was a world consumed by the same, the people had found their voices, the people had lost their heads, the future had never gleamed so fiercely, the future had never cost so much."
+  },
+  {
+    "id": "tale-1-v1",
+    "humanId": "tale-1",
+    "humanSource": "A Tale of Two Cities by Charles Dickens (1859), Project Gutenberg",
+    "humanText": "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way.",
+    "aiText": "It was the reign of the mob, it was the reign of the monarch, it was the fury of the dispossessed, it was the terror of the possessor, it was a nation reborn in fire, it was a nation consumed by the same, it was the voice of reason thundering from barricades, it was the silence of reason drowned beneath them, it was brotherhood proclaimed in the public square, it was brotherhood murdered there before nightfall."
+  },
+  {
+    "id": "tale-1-v2",
+    "humanId": "tale-1",
+    "humanSource": "A Tale of Two Cities by Charles Dickens (1859), Project Gutenberg",
+    "humanText": "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way.",
+    "aiText": "It was the year men buried tyrants, it was the year men became them, it was the morning of fraternity shouted from barricades, it was the evening of fraternity drowned in cellars, it was the pamphlet that freed a thousand minds, it was the decree that chained ten thousand bodies, it was the philosopher's century closing in triumph, it was the philosopher's century closing in blood, we had torn the old world to pieces, we had found nothing beneath it but the cold ground."
+  },
+  {
+    "id": "tale-1-v3",
+    "humanId": "tale-1",
+    "humanSource": "A Tale of Two Cities by Charles Dickens (1859), Project Gutenberg",
+    "humanText": "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way.",
+    "aiText": "It was the birth of republics, it was the death of republics, it was the moment the people found their voices, it was the moment their voices called for blood, it was the philosophy of liberation set free upon the world, it was the philosophy of liberation devouring its philosophers, it was the century bowing before reason, it was the century burning the reasonable, it was the promise written in fire, it was the promise extinguished by the same."
+  },
+  {
+    "id": "tale-1-v4",
+    "humanId": "tale-1",
+    "humanSource": "A Tale of Two Cities by Charles Dickens (1859), Project Gutenberg",
+    "humanText": "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way.",
+    "aiText": "It was the age when streets learned the names of saints and forgot them, when brothers embraced and brothers denounced, when the press ran free and ran men to the gallows, when the cathedral became a stable and the stable became a shrine, when the learned man was silenced and the shouting man was heard, when liberty was the word on every flag and the chain around every wrist."
+  },
+  {
+    "id": "frank-1-v0",
+    "humanId": "frank-1",
+    "humanSource": "Frankenstein by Mary Shelley (1818), Project Gutenberg",
+    "humanText": "It was on a dreary night of November that I beheld the accomplishment of my toils. With an anxiety that almost amounted to agony, I collected the instruments of life around me, that I might infuse a spark of being into the lifeless thing that lay at my feet. It was already one in the morning; the rain pattered dismally against the panes, and my candle was nearly burnt out, when, by the glimmer of the half-extinguished light, I saw the dull yellow eye of the creature open; it breathed hard, and a convulsive motion agitated its limbs.",
+    "aiText": "The clocks had long since struck their final hour when I observed the first tremor pass through those cold, pale fingers. I had labored across three sleepless winters to reach this moment, and now that it arrived I found myself gripping the iron rail of the table, unable to draw breath, watching a film of moisture gather upon the grey lids and then — with a slowness that stretched each second into something monstrous — the lids drew back, revealing eyes that held no recognition, no fear, only a terrible and indifferent light, like lanterns burning inside an abandoned house."
+  },
+  {
+    "id": "frank-1-v1",
+    "humanId": "frank-1",
+    "humanSource": "Frankenstein by Mary Shelley (1818), Project Gutenberg",
+    "humanText": "It was on a dreary night of November that I beheld the accomplishment of my toils. With an anxiety that almost amounted to agony, I collected the instruments of life around me, that I might infuse a spark of being into the lifeless thing that lay at my feet. It was already one in the morning; the rain pattered dismally against the panes, and my candle was nearly burnt out, when, by the glimmer of the half-extinguished light, I saw the dull yellow eye of the creature open; it breathed hard, and a convulsive motion agitated its limbs.",
+    "aiText": "I had not slept in four days. The solution clouded and then cleared, and in that clearing I witnessed what no sane man ought to witness: the membrane across its eyes drew back, and something behind them — not light, not recognition, but a terrible vacancy that knew itself — settled into focus. My notes fell from the table. I did not retrieve them. The creature's first breath was shallow, almost apologetic, as though it too regretted what had been set irrevocably in motion between us."
+  },
+  {
+    "id": "frank-1-v2",
+    "humanId": "frank-1",
+    "humanSource": "Frankenstein by Mary Shelley (1818), Project Gutenberg",
+    "humanText": "It was on a dreary night of November that I beheld the accomplishment of my toils. With an anxiety that almost amounted to agony, I collected the instruments of life around me, that I might infuse a spark of being into the lifeless thing that lay at my feet. It was already one in the morning; the rain pattered dismally against the panes, and my candle was nearly burnt out, when, by the glimmer of the half-extinguished light, I saw the dull yellow eye of the creature open; it breathed hard, and a convulsive motion agitated its limbs.",
+    "aiText": "My notes from that evening are illegible — the handwriting collapses into something barely human near the final entry. I remember the smell of the room more than anything: copper and lamp oil and the particular cold that comes not from temperature but from dread. Then the membrane across its face tightened, the way skin tightens before a scream, and both eyes opened simultaneously, fixing on me with a patience so absolute it suggested the thing had always been watching, had only now consented to let me know."
+  },
+  {
+    "id": "frank-1-v3",
+    "humanId": "frank-1",
+    "humanSource": "Frankenstein by Mary Shelley (1818), Project Gutenberg",
+    "humanText": "It was on a dreary night of November that I beheld the accomplishment of my toils. With an anxiety that almost amounted to agony, I collected the instruments of life around me, that I might infuse a spark of being into the lifeless thing that lay at my feet. It was already one in the morning; the rain pattered dismally against the panes, and my candle was nearly burnt out, when, by the glimmer of the half-extinguished light, I saw the dull yellow eye of the creature open; it breathed hard, and a convulsive motion agitated its limbs.",
+    "aiText": "What possessed me to continue after the third failure, I cannot now explain with any honesty. The cellar smelled of copper and something older, something the stones themselves seemed to exhale, and I stood over the table with my arms trembling not from cold but from a dread I refused to name, when the membrane across its face drew taut, then split, and two pale irises rotated slowly toward me with an expression I can only describe as recognition — as though it had been waiting far longer than the hours I had spent making it."
+  },
+  {
+    "id": "frank-1-v4",
+    "humanId": "frank-1",
+    "humanSource": "Frankenstein by Mary Shelley (1818), Project Gutenberg",
+    "humanText": "It was on a dreary night of November that I beheld the accomplishment of my toils. With an anxiety that almost amounted to agony, I collected the instruments of life around me, that I might infuse a spark of being into the lifeless thing that lay at my feet. It was already one in the morning; the rain pattered dismally against the panes, and my candle was nearly burnt out, when, by the glimmer of the half-extinguished light, I saw the dull yellow eye of the creature open; it breathed hard, and a convulsive motion agitated its limbs.",
+    "aiText": "The date I cannot bring myself to write, even now. I had dismissed my assistant at dusk, unwilling to share what I suspected was near, and worked alone through the grinding silence of those hours when night presses hardest against the windows. Then the membrane across its face tightened, and the eyes beneath — two pale, wet surfaces I had assembled from materials I will not name — rolled upward and fixed upon me with an expression no newborn thing should possess, as though it recognized not my face but my guilt."
+  },
+  {
+    "id": "sherlock-1-v0",
+    "humanId": "sherlock-1",
+    "humanSource": "A Study in Scarlet by Arthur Conan Doyle (1887), Project Gutenberg",
+    "humanText": "His very person and appearance were such as to strike the attention of the most casual observer. In height he was rather over six feet, and so excessively lean that he seemed to be considerably taller. His eyes were sharp and piercing, save during those intervals of torpor to which I have alluded; and his thin, hawk-like nose gave his whole expression an air of alertness and decision. His chin, too, had the prominence and squareness which mark the man of determination.",
+    "aiText": "I had not lived three days in Baker Street before I understood that my new companion was unlike any man I had previously encountered. He kept irregular hours and stranger habits, and his sitting room bore the marks of a mind that worked best in disorder. Once I found him measuring the skulls of three cats with a pair of callipers, entirely absorbed, as though this were the most natural occupation a man could pursue before breakfast."
+  },
+  {
+    "id": "sherlock-1-v1",
+    "humanId": "sherlock-1",
+    "humanSource": "A Study in Scarlet by Arthur Conan Doyle (1887), Project Gutenberg",
+    "humanText": "His very person and appearance were such as to strike the attention of the most casual observer. In height he was rather over six feet, and so excessively lean that he seemed to be considerably taller. His eyes were sharp and piercing, save during those intervals of torpor to which I have alluded; and his thin, hawk-like nose gave his whole expression an air of alertness and decision. His chin, too, had the prominence and squareness which mark the man of determination.",
+    "aiText": "When I first called at those lodgings in September of 1878, he was crouched over a portable spirit-lamp, boiling something that smelled of vinegar and old rope. He did not look up. I formed my opinion of him in that first silence: here was a man thoroughly indifferent to whether the world approved of him, which I have since learned is either the mark of genius or of complete ruin, and in his case appeared to be both simultaneously."
+  },
+  {
+    "id": "sherlock-1-v2",
+    "humanId": "sherlock-1",
+    "humanSource": "A Study in Scarlet by Arthur Conan Doyle (1887), Project Gutenberg",
+    "humanText": "His very person and appearance were such as to strike the attention of the most casual observer. In height he was rather over six feet, and so excessively lean that he seemed to be considerably taller. His eyes were sharp and piercing, save during those intervals of torpor to which I have alluded; and his thin, hawk-like nose gave his whole expression an air of alertness and decision. His chin, too, had the prominence and squareness which mark the man of determination.",
+    "aiText": "He arrived at our rooms carrying a human femur under one arm and a cello case under the other, and I thought then that I had made a serious error of judgment. He said nothing to me beyond a brief nod. Over the following days I observed that he kept irregular hours, maintained a correspondence with six European governments, and had opinions about tobacco ash that he considered worth publishing. I revised my assessment of the error somewhat."
+  },
+  {
+    "id": "sherlock-1-v3",
+    "humanId": "sherlock-1",
+    "humanSource": "A Study in Scarlet by Arthur Conan Doyle (1887), Project Gutenberg",
+    "humanText": "His very person and appearance were such as to strike the attention of the most casual observer. In height he was rather over six feet, and so excessively lean that he seemed to be considerably taller. His eyes were sharp and piercing, save during those intervals of torpor to which I have alluded; and his thin, hawk-like nose gave his whole expression an air of alertness and decision. His chin, too, had the prominence and squareness which mark the man of determination.",
+    "aiText": "I met Pendleton on a Tuesday, which I mention only because I cannot otherwise account for the week that followed. He was seated at the breakfast table dissecting a watch when I came down, and he did not look up. His hands moved with the absolute certainty of a man who has never once doubted himself, which I found simultaneously admirable and insufferable. My landlady, I noticed, had already developed the particular expression she reserved for condemned men."
+  },
+  {
+    "id": "sherlock-1-v4",
+    "humanId": "sherlock-1",
+    "humanSource": "A Study in Scarlet by Arthur Conan Doyle (1887), Project Gutenberg",
+    "humanText": "His very person and appearance were such as to strike the attention of the most casual observer. In height he was rather over six feet, and so excessively lean that he seemed to be considerably taller. His eyes were sharp and piercing, save during those intervals of torpor to which I have alluded; and his thin, hawk-like nose gave his whole expression an air of alertness and decision. His chin, too, had the prominence and squareness which mark the man of determination.",
+    "aiText": "The advertisement had described him as a medical man seeking a quiet companion to share expenses. Nothing in those words prepared me for Hartley. He kept a skull on the mantelpiece, not as any morbid trophy but as a letter-rack, which struck me as worse. His methods were precise and his habits were not. I counted, in that first week, four separate experiments running simultaneously on the kitchen table, none of which he thought worth explaining."
+  },
+  {
+    "id": "walden-1-v0",
+    "humanId": "walden-1",
+    "humanSource": "Walden by Henry David Thoreau (1854), Project Gutenberg",
+    "humanText": "I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived. I did not wish to live what was not life, living is so dear; nor did I wish to practise resignation, unless it was quite necessary. I wanted to live deep and suck out all the marrow of life, to live so sturdily and Spartan-like as to put to rout all that was not life.",
+    "aiText": "I came to this forest not in desperation but in clarity, as a man sets down a heavy parcel he has carried so long he forgot it was not part of him. The trees asked nothing. The creek made its argument each morning without waiting for my agreement, and I began to understand that this was the lesson — not what I might build here, not what thoughts I might refine into doctrine, but simply that existence does not require my interpretation to proceed with its ancient, indifferent magnificence."
+  },
+  {
+    "id": "walden-1-v1",
+    "humanId": "walden-1",
+    "humanSource": "Walden by Henry David Thoreau (1854), Project Gutenberg",
+    "humanText": "I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived. I did not wish to live what was not life, living is so dear; nor did I wish to practise resignation, unless it was quite necessary. I wanted to live deep and suck out all the marrow of life, to live so sturdily and Spartan-like as to put to rout all that was not life.",
+    "aiText": "I stripped away the town as a man strips off a wet coat — not in anger, but because the weight had become unbearable and the cold underneath preferable to that sodden heaviness. Here the mornings ask their questions plainly: what do you require, what have you squandered, what remains when the noise is gone. I had lived for years among men who never once put such questions to themselves, and I found I could no longer watch them sleep so peacefully in their unexamined hours without losing something I could not name but could not afford to lose."
+  },
+  {
+    "id": "walden-1-v2",
+    "humanId": "walden-1",
+    "humanSource": "Walden by Henry David Thoreau (1854), Project Gutenberg",
+    "humanText": "I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived. I did not wish to live what was not life, living is so dear; nor did I wish to practise resignation, unless it was quite necessary. I wanted to live deep and suck out all the marrow of life, to live so sturdily and Spartan-like as to put to rout all that was not life.",
+    "aiText": "I built my cabin at the edge of the hemlock grove because I suspected the town had been answering questions nobody asked. The ledger, the social call, the newspaper with its catastrophes — these had filled my hours until I could not hear myself think, and thinking, I had come to believe, was the one labor a man owes himself before all others. So I came here to be poor in the right way, to owe nothing to comfort, and to discover whether a life stripped to its bare planks could still hold warmth."
+  },
+  {
+    "id": "walden-1-v3",
+    "humanId": "walden-1",
+    "humanSource": "Walden by Henry David Thoreau (1854), Project Gutenberg",
+    "humanText": "I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived. I did not wish to live what was not life, living is so dear; nor did I wish to practise resignation, unless it was quite necessary. I wanted to live deep and suck out all the marrow of life, to live so sturdily and Spartan-like as to put to rout all that was not life.",
+    "aiText": "I walked into these woods as a man walks toward a question he has long refused to ask himself. The newspapers would have called it withdrawal; I called it arrival. Society had grown so thick with opinion and obligation that a man could live forty years inside it and never once press his hand against the bare fact of his own existence — never feel it cold and actual beneath his palm."
+  },
+  {
+    "id": "walden-1-v4",
+    "humanId": "walden-1",
+    "humanSource": "Walden by Henry David Thoreau (1854), Project Gutenberg",
+    "humanText": "I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived. I did not wish to live what was not life, living is so dear; nor did I wish to practise resignation, unless it was quite necessary. I wanted to live deep and suck out all the marrow of life, to live so sturdily and Spartan-like as to put to rout all that was not life.",
+    "aiText": "The axe was my first honest companion here; its weight in my hands more truthful than a year of conversation in the village. I had grown suspicious of my own mind in society, where every thought arrived already dressed for approval, and I wished to catch myself thinking before the performance began. Whether a man can be said to truly know hunger, or cold, or the particular silence that follows a night of hard rain, until he has earned his bread and mended his own roof — this was what I came to settle."
+  },
+  {
+    "id": "huck-1-v0",
+    "humanId": "huck-1",
+    "humanSource": "Adventures of Huckleberry Finn by Mark Twain (1884), Project Gutenberg",
+    "humanText": "You don't know about me without you have read a book by the name of The Adventures of Tom Sawyer; but that ain't no matter. That book was made by Mr. Mark Twain, and he told the truth, mainly. There was things which he stretched, but mainly he told the truth. That is nothing. I never seen anybody but lied one time or another, without it was Aunt Polly, or the widow, or maybe Mary.",
+    "aiText": "I reckon you ain't heard of me unless you read that book Mr. Stevenson put out, the one about the island with the treasure buried on it. He got some of it right and some of it wrong, same as anybody would. Jim says the parrot talked different than how it's written down. I don't know about that. I wasn't there for the parrot."
+  },
+  {
+    "id": "huck-1-v1",
+    "humanId": "huck-1",
+    "humanSource": "Adventures of Huckleberry Finn by Mark Twain (1884), Project Gutenberg",
+    "humanText": "You don't know about me without you have read a book by the name of The Adventures of Tom Sawyer; but that ain't no matter. That book was made by Mr. Mark Twain, and he told the truth, mainly. There was things which he stretched, but mainly he told the truth. That is nothing. I never seen anybody but lied one time or another, without it was Aunt Polly, or the widow, or maybe Mary.",
+    "aiText": "Maybe you seen that book they got out lately, the one Mr. Crane wrote about a fellow named Henry and the war. I read some of it down at Phelps's store. It ain't bad, only Henry acts awful yellow at first and I wanted to knock him some. Mr. Crane don't sugarcoat nothing, which my daddy says is why decent folks get bothered by it. I don't mind that myself."
+  },
+  {
+    "id": "huck-1-v2",
+    "humanId": "huck-1",
+    "humanSource": "Adventures of Huckleberry Finn by Mark Twain (1884), Project Gutenberg",
+    "humanText": "You don't know about me without you have read a book by the name of The Adventures of Tom Sawyer; but that ain't no matter. That book was made by Mr. Mark Twain, and he told the truth, mainly. There was things which he stretched, but mainly he told the truth. That is nothing. I never seen anybody but lied one time or another, without it was Aunt Polly, or the widow, or maybe Mary.",
+    "aiText": "There's a fellow name of Mr. Dickens wrote a book about a boy called Oliver, and I read some of it down at the shop where they keep the copies. It ain't all wrong, what he says. Poor boys do get hungry and they do get beat. But Oliver talks too fine for a workhouse kid, is what I think. Nobody talks like that when they're cold."
+  },
+  {
+    "id": "huck-1-v3",
+    "humanId": "huck-1",
+    "humanSource": "Adventures of Huckleberry Finn by Mark Twain (1884), Project Gutenberg",
+    "humanText": "You don't know about me without you have read a book by the name of The Adventures of Tom Sawyer; but that ain't no matter. That book was made by Mr. Mark Twain, and he told the truth, mainly. There was things which he stretched, but mainly he told the truth. That is nothing. I never seen anybody but lied one time or another, without it was Aunt Polly, or the widow, or maybe Mary.",
+    "aiText": "That book they put out about Oliver, I read some of it down at the shop window. Fellow name of Boz wrote it, or that's what it says. I don't know was he there personal or not. Some parts ain't how it goes, not exactly. They make the workhouse colder than it was and the boys meaner. But the hungry part he got right enough."
+  },
+  {
+    "id": "huck-1-v4",
+    "humanId": "huck-1",
+    "humanSource": "Adventures of Huckleberry Finn by Mark Twain (1884), Project Gutenberg",
+    "humanText": "You don't know about me without you have read a book by the name of The Adventures of Tom Sawyer; but that ain't no matter. That book was made by Mr. Mark Twain, and he told the truth, mainly. There was things which he stretched, but mainly he told the truth. That is nothing. I never seen anybody but lied one time or another, without it was Aunt Polly, or the widow, or maybe Mary.",
+    "aiText": "You might of heard about a boy name of Pip, on account of Mr. Dickens wrote him up in a book. I seen it at the schoolmaster's house. It is a considerable long book and I only got through part of it before he run me off. Pip is an orphan boy same as I am near enough. Mr. Dickens put down how he talks and feels real careful, which I thought was decent of him."
+  },
+  {
+    "id": "wuthering-1-v0",
+    "humanId": "wuthering-1",
+    "humanSource": "Wuthering Heights by Emily Brontë (1847), Project Gutenberg",
+    "humanText": "1801. I have just returned from a visit to my landlord—the solitary neighbour that I shall be troubled with. This is certainly a beautiful country! In all England, I do not believe that I could have fixed on a situation so completely removed from the stir of society. A perfect misanthropist's heaven: and Mr. Heathcliff and I are such a suitable pair to divide the desolation between us. A capital fellow!",
+    "aiText": "March, 1823. I arrived at Greymoor Lodge as the last light failed entirely. My new landlord met me at the gate rather than the door—a deliberate slight, I thought. He is a tall, colourless man, and he looked at me as one looks at weather. No word of welcome passed him. The house smelled of tallow and something older. I have secured the worst lodgings in the north of England, and perhaps deserved them."
+  },
+  {
+    "id": "wuthering-1-v1",
+    "humanId": "wuthering-1",
+    "humanSource": "Wuthering Heights by Emily Brontë (1847), Project Gutenberg",
+    "humanText": "1801. I have just returned from a visit to my landlord—the solitary neighbour that I shall be troubled with. This is certainly a beautiful country! In all England, I do not believe that I could have fixed on a situation so completely removed from the stir of society. A perfect misanthropist's heaven: and Mr. Heathcliff and I are such a suitable pair to divide the desolation between us. A capital fellow!",
+    "aiText": "November, 1819. A wretched afternoon to make acquaintance with any man. Dunmore received me in the passage, candle in hand, and said nothing for a full minute. I had expected coolness; I had not expected that hollow stare. The dog retreated. Even the fire seemed reluctant to burn in his presence. I begin to think I have taken rooms from something less than human."
+  },
+  {
+    "id": "wuthering-1-v2",
+    "humanId": "wuthering-1",
+    "humanSource": "Wuthering Heights by Emily Brontë (1847), Project Gutenberg",
+    "humanText": "1801. I have just returned from a visit to my landlord—the solitary neighbour that I shall be troubled with. This is certainly a beautiful country! In all England, I do not believe that I could have fixed on a situation so completely removed from the stir of society. A perfect misanthropist's heaven: and Mr. Heathcliff and I are such a suitable pair to divide the desolation between us. A capital fellow!",
+    "aiText": "February, 1831. The road from Haworth took four hours in this weather. Grimshaw — my landlord — received me without a word, only that long stare men use when they have decided against you already. The house smells of cold ash and something older. I asked about supper. He turned away. I cannot say he was rude, precisely; it was more the courtesy one extends to furniture."
+  },
+  {
+    "id": "wuthering-1-v3",
+    "humanId": "wuthering-1",
+    "humanSource": "Wuthering Heights by Emily Brontë (1847), Project Gutenberg",
+    "humanText": "1801. I have just returned from a visit to my landlord—the solitary neighbour that I shall be troubled with. This is certainly a beautiful country! In all England, I do not believe that I could have fixed on a situation so completely removed from the stir of society. A perfect misanthropist's heaven: and Mr. Heathcliff and I are such a suitable pair to divide the desolation between us. A capital fellow!",
+    "aiText": "October, 1817. I have had my introduction to Mr. Vane at last. He received me in the hall without a candle, which I took for an oversight. It was not. He looked at my luggage, then at my face, with equal displeasure. The house smells of cold stone and something older. I asked about supper. He turned and walked away down a passage that seemed to have no end."
+  },
+  {
+    "id": "wuthering-1-v4",
+    "humanId": "wuthering-1",
+    "humanSource": "Wuthering Heights by Emily Brontë (1847), Project Gutenberg",
+    "humanText": "1801. I have just returned from a visit to my landlord—the solitary neighbour that I shall be troubled with. This is certainly a beautiful country! In all England, I do not believe that I could have fixed on a situation so completely removed from the stir of society. A perfect misanthropist's heaven: and Mr. Heathcliff and I are such a suitable pair to divide the desolation between us. A capital fellow!",
+    "aiText": "September, 1824. Stonethwaite has received me, if received is the word for what passed between us. My landlord, Harcastle, opened the door himself—no servant appeared. He looked at my luggage, then at my face, with equal distaste. I said something about the journey. He said nothing. The moor behind the house stretched away in that particular grey which admits no comfort. I was shown a room. He did not follow."
+  },
+  {
+    "id": "kafka-1-v0",
+    "humanId": "kafka-1",
+    "humanSource": "The Metamorphosis by Franz Kafka (1915), translated by David Wyllie, Project Gutenberg",
+    "humanText": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked.",
+    "aiText": "When Horváth opened his eyes that Tuesday, he noticed first that his hands had become translucent, the bones visible like fish in shallow water. He held them above his face and counted his fingers, which were still ten but had lengthened considerably overnight. The ceiling looked the same. His wife's breathing from the other pillow was undisturbed. He would need to call his supervisor about the afternoon meeting, since he could not reasonably attend in his current state."
+  },
+  {
+    "id": "kafka-1-v1",
+    "humanId": "kafka-1",
+    "humanSource": "The Metamorphosis by Franz Kafka (1915), translated by David Wyllie, Project Gutenberg",
+    "humanText": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked.",
+    "aiText": "Brenner woke at half past six, as he always did. The alarm had not sounded yet, but something else had—a low pressure in the chest, a thickening. He reached for his glasses on the nightstand and saw that his hand was no longer a hand in any ordinary sense. There were too many joints, bending wrong, and the color was that of old putty. He set the glasses on his face carefully and looked at the ceiling for a moment before sitting up."
+  },
+  {
+    "id": "kafka-1-v2",
+    "humanId": "kafka-1",
+    "humanSource": "The Metamorphosis by Franz Kafka (1915), translated by David Wyllie, Project Gutenberg",
+    "humanText": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked.",
+    "aiText": "The change had happened in the night. Voss became aware of it gradually, as a man becomes aware of rain — first the sound, then the fact. His hands lay before him on the coverlet, and they were wrong in ways he could not immediately name. Too many joints. A surface that was not skin. He counted carefully, because counting seemed the right response, and arrived at a number that did not correspond to anything he had been taught."
+  },
+  {
+    "id": "kafka-1-v3",
+    "humanId": "kafka-1",
+    "humanSource": "The Metamorphosis by Franz Kafka (1915), translated by David Wyllie, Project Gutenberg",
+    "humanText": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked.",
+    "aiText": "Schreiber reached for his glasses on the nightstand and could not find them, because his hand was no longer a hand. He lay still for some time, looking at the ceiling. The thing at the end of his arm was dark and segmented, and where his fingers had been there were now four jointed appendages that moved, slightly, on their own. He thought about the meeting at nine o'clock, and whether Frau Kupfer would have remembered to book the conference room."
+  },
+  {
+    "id": "kafka-1-v4",
+    "humanId": "kafka-1",
+    "humanSource": "The Metamorphosis by Franz Kafka (1915), translated by David Wyllie, Project Gutenberg",
+    "humanText": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked.",
+    "aiText": "Marten lay still for some time before understanding that the weight pressing him into the mattress was his own. His hands, when he raised them, were broad and pale as plates, the fingers fused into two heavy divisions. He tried to call out but produced instead a low sound, even and sustained, like something mechanical. The bedroom was unchanged — the wardrobe, the curtains, the cup of water he had not finished — and this bothered him more than he could explain."
+  },
+  {
+    "id": "alice-1-v0",
+    "humanId": "alice-1",
+    "humanSource": "Alice's Adventures in Wonderland by Lewis Carroll (1865), Project Gutenberg",
+    "humanText": "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, 'and what is the use of a book,' thought Alice 'without pictures or conversations?' So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "aiText": "Milo had been watching the river for what felt like the whole of his life, or at least since breakfast, which amounted to the same thing on a Tuesday; the water was doing nothing of particular interest, just sliding past in its usual brown and thoughtless way, and he was nearly resolved to go home and find something to dislike there instead, when a small otter rose up on the opposite bank, adjusted what appeared to be a pair of spectacles, and addressed him in a tone of considerable irritation, wanting to know whether he intended to sit gawking all afternoon or whether he might be persuaded to make himself useful for once."
+  },
+  {
+    "id": "alice-1-v1",
+    "humanId": "alice-1",
+    "humanSource": "Alice's Adventures in Wonderland by Lewis Carroll (1865), Project Gutenberg",
+    "humanText": "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, 'and what is the use of a book,' thought Alice 'without pictures or conversations?' So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "aiText": "Cecily had grown thoroughly bored of counting the stones along the near bank, which numbered either forty-one or forty-three depending on whether she counted the one that was mostly mud, and she was just deciding that it hardly mattered either way and that nothing in the world would ever matter again, when a brown otter with unusually tidy whiskers climbed up onto a root beside her and remarked, in the tone of someone continuing a conversation rather than beginning one, that she was sitting in precisely the spot where he had left his pocket-watch, and would she mind very much shifting a little to the left."
+  },
+  {
+    "id": "alice-1-v2",
+    "humanId": "alice-1",
+    "humanSource": "Alice's Adventures in Wonderland by Lewis Carroll (1865), Project Gutenberg",
+    "humanText": "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, 'and what is the use of a book,' thought Alice 'without pictures or conversations?' So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "aiText": "Pip had tried, twice, to interest himself in the business of damming the shallows with flat stones, and twice had decided it was not worth the mud on his knees, and so he lay on his back in the long grass with his hat across his face and thought about nothing in particular, which was nearly the same as sleeping, when a voice quite close to his ear said, with some indignation, that he was lying directly on top of somebody's front door, and Pip lifted his hat and found a large toad sitting upright on a root, regarding him with the expression of a solicitor whose patience has very nearly run out."
+  },
+  {
+    "id": "alice-1-v3",
+    "humanId": "alice-1",
+    "humanSource": "Alice's Adventures in Wonderland by Lewis Carroll (1865), Project Gutenberg",
+    "humanText": "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, 'and what is the use of a book,' thought Alice 'without pictures or conversations?' So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "aiText": "Harriet had spent the better part of the afternoon doing absolutely nothing useful, which had seemed at first a fine ambition but had since grown rather hollow, and she was in the middle of deciding whether the mud at the river's edge was interesting enough to warrant removing her shoes — it probably was not — when a small brown otter surfaced directly in front of her, rested its chin on a flat stone, and said, in a tone suggesting the matter was perfectly ordinary, that she had been sighing loud enough to frighten the fish for the past hour, and did she perhaps need directing somewhere."
+  },
+  {
+    "id": "alice-1-v4",
+    "humanId": "alice-1",
+    "humanSource": "Alice's Adventures in Wonderland by Lewis Carroll (1865), Project Gutenberg",
+    "humanText": "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, 'and what is the use of a book,' thought Alice 'without pictures or conversations?' So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "aiText": "Edmund could not have said, with any certainty, how long he had been sitting with his chin on his knees watching the brown water slide past, carrying its scraps of bark and drowned leaves nowhere in particular, except that the shadows had grown longer and his left foot had gone entirely to sleep, when a small grey otter climbed onto the opposite bank, sat up straight in a businesslike manner, and said, in a voice rather like a schoolmaster who has been kept waiting, that if Edmund was not going to do anything useful with the afternoon, he might at least have the decency to be miserable about it, instead of simply slumping there looking like a question nobody had thought to finish asking."
+  },
+  {
+    "id": "dracula-1-v0",
+    "humanId": "dracula-1",
+    "humanSource": "Dracula by Bram Stoker (1897), Project Gutenberg",
+    "humanText": "3 May. Bistritz.—Left Munich at 8:35 P. M., on 1st May, arriving at Vienna early next morning; should have arrived at 6:46, but train was an hour late. Buda-Pesth seems a wonderful place, from the glimpse which I got of it from the train and the little I could walk through the streets. I feared to go very far from the station, as we had arrived late and would start as near the correct time as possible. The impression I had was that we were leaving the West and entering the East.",
+    "aiText": "14 June. Kraków.—Departed Wien at quarter past seven, the morning grey and close. We crossed into Galicia sometime before noon, though I cannot say precisely when the change came over the land. The villages grew smaller and further between. My fellow passengers had by degrees fallen silent, and I noticed that one old woman crossed herself as we passed through a certain valley. I did not ask why. The inn here smells of woodsmoke and something else I cannot name. I have bolted the door."
+  },
+  {
+    "id": "dracula-1-v1",
+    "humanId": "dracula-1",
+    "humanSource": "Dracula by Bram Stoker (1897), Project Gutenberg",
+    "humanText": "3 May. Bistritz.—Left Munich at 8:35 P. M., on 1st May, arriving at Vienna early next morning; should have arrived at 6:46, but train was an hour late. Buda-Pesth seems a wonderful place, from the glimpse which I got of it from the train and the little I could walk through the streets. I feared to go very far from the station, as we had arrived late and would start as near the correct time as possible. The impression I had was that we were leaving the West and entering the East.",
+    "aiText": "9 September. Lemberg.—The border crossing took nearly two hours, though no official offered explanation for the delay. A soldier held my passport at length, turning it as one turns an unfamiliar object. The carriage emptied somewhat at Przemyśl; those remaining spoke little. I noticed the roads change almost immediately after—rougher, less certain of their direction. My fellow passenger, a cloth merchant from Breslau, grew quiet near dusk and would not resume conversation. I cannot account for the feeling, only record it."
+  },
+  {
+    "id": "dracula-1-v2",
+    "humanId": "dracula-1",
+    "humanSource": "Dracula by Bram Stoker (1897), Project Gutenberg",
+    "humanText": "3 May. Bistritz.—Left Munich at 8:35 P. M., on 1st May, arriving at Vienna early next morning; should have arrived at 6:46, but train was an hour late. Buda-Pesth seems a wonderful place, from the glimpse which I got of it from the train and the little I could walk through the streets. I feared to go very far from the station, as we had arrived late and would start as near the correct time as possible. The impression I had was that we were leaving the West and entering the East.",
+    "aiText": "17 October. Przemyśl.—Slept poorly on the train from Vienna, and woke to find the landscape altogether changed. The plains here have a flat, exhausted look to them. My fellow passengers grew quieter as we crossed into Galicia; I noticed this without quite understanding it. An old woman opposite me drew her shawl closer, though the carriage was not cold. At the station a soldier examined my papers with more care than seemed necessary. The town itself appears ordinary enough. Still, I confess I locked my door before writing this."
+  },
+  {
+    "id": "dracula-1-v3",
+    "humanId": "dracula-1",
+    "humanSource": "Dracula by Bram Stoker (1897), Project Gutenberg",
+    "humanText": "3 May. Bistritz.—Left Munich at 8:35 P. M., on 1st May, arriving at Vienna early next morning; should have arrived at 6:46, but train was an hour late. Buda-Pesth seems a wonderful place, from the glimpse which I got of it from the train and the little I could walk through the streets. I feared to go very far from the station, as we had arrived late and would start as near the correct time as possible. The impression I had was that we were leaving the West and entering the East.",
+    "aiText": "22 August. Czernowitz.—Crossed from the Hungarian side before noon. The officials here examined my papers with a thoroughness I had not encountered further west, passing them between one another and speaking in low voices I could not follow. The station was smaller than I expected, and very quiet. A dog lay in the shade beneath a cart, and nobody troubled it. I have taken a room above a tanner's yard. The smell is considerable. My landlady brought bread without being asked, which I found both kind and, somehow, disquieting."
+  },
+  {
+    "id": "dracula-1-v4",
+    "humanId": "dracula-1",
+    "humanSource": "Dracula by Bram Stoker (1897), Project Gutenberg",
+    "humanText": "3 May. Bistritz.—Left Munich at 8:35 P. M., on 1st May, arriving at Vienna early next morning; should have arrived at 6:46, but train was an hour late. Buda-Pesth seems a wonderful place, from the glimpse which I got of it from the train and the little I could walk through the streets. I feared to go very far from the station, as we had arrived late and would start as near the correct time as possible. The impression I had was that we were leaving the West and entering the East.",
+    "aiText": "3 November. Tarnów.—The station here is a mean building, poorly lit. I waited an hour on the platform before anyone came to examine my papers, and the official who finally appeared said nothing, only studied my face at length before returning the documents without a word. The other passengers had dispersed by then. My porter disappeared equally without explanation. I find I cannot account for where the evening has gone. Something in the air here discourages inquiry. I have taken a room above a courtyard and bolted the door."
+  },
+  {
+    "id": "art-of-war-1-v0",
+    "humanId": "art-of-war-1",
+    "humanSource": "The Art of War by Sun Tzu, translated by Lionel Giles (1910), Project Gutenberg",
+    "humanText": "The art of war is of vital importance to the State. It is a matter of life and death, a road either to safety or to ruin. Hence it is a subject of inquiry which can on no account be neglected. The art of war, then, is governed by five constant factors, to be taken into account in one's deliberations, when seeking to determine the conditions obtaining in the field. These are: the Moral Law; Heaven; Earth; the Commander; Method and discipline.",
+    "aiText": "Conflict begins in the mind before it reaches the field. A commander who has not mastered himself cannot master armies. The cause must be just, or victory poisons those who drink it. Know the ground, know the season, know your enemy's hunger — but first know why you fight. An unjust war won is a nation's slow corruption."
+  },
+  {
+    "id": "art-of-war-1-v1",
+    "humanId": "art-of-war-1",
+    "humanSource": "The Art of War by Sun Tzu, translated by Lionel Giles (1910), Project Gutenberg",
+    "humanText": "The art of war is of vital importance to the State. It is a matter of life and death, a road either to safety or to ruin. Hence it is a subject of inquiry which can on no account be neglected. The art of war, then, is governed by five constant factors, to be taken into account in one's deliberations, when seeking to determine the conditions obtaining in the field. These are: the Moral Law; Heaven; Earth; the Commander; Method and discipline.",
+    "aiText": "Victory without justice is a wound that festers in the victor. Consider, therefore, the cause before the campaign, and let your commanders speak plainly of it to those who must bleed. A general who conceals his purpose from his own ranks breeds desertion before the enemy arrives. Discipline holds the body of an army; only righteous cause holds its will. These two things are not equal, and the commander who mistakes one for the other has already lost something he cannot recover on any battlefield."
+  },
+  {
+    "id": "art-of-war-1-v2",
+    "humanId": "art-of-war-1",
+    "humanSource": "The Art of War by Sun Tzu, translated by Lionel Giles (1910), Project Gutenberg",
+    "humanText": "The art of war is of vital importance to the State. It is a matter of life and death, a road either to safety or to ruin. Hence it is a subject of inquiry which can on no account be neglected. The art of war, then, is governed by five constant factors, to be taken into account in one's deliberations, when seeking to determine the conditions obtaining in the field. These are: the Moral Law; Heaven; Earth; the Commander; Method and discipline.",
+    "aiText": "He who moves without cause moves against himself. The people are the ground beneath an army; drain them and the army sinks. Three things destroy a commander: haste, pride, and the belief that cleverness replaces virtue. A ruler who wages war for gain will find that gain turns to obligation, and obligation to ruin. Measure your enemy, but first measure the righteousness of your own position, for armies that know why they fight are worth twice their number."
+  },
+  {
+    "id": "art-of-war-1-v3",
+    "humanId": "art-of-war-1",
+    "humanSource": "The Art of War by Sun Tzu, translated by Lionel Giles (1910), Project Gutenberg",
+    "humanText": "The art of war is of vital importance to the State. It is a matter of life and death, a road either to safety or to ruin. Hence it is a subject of inquiry which can on no account be neglected. The art of war, then, is governed by five constant factors, to be taken into account in one's deliberations, when seeking to determine the conditions obtaining in the field. These are: the Moral Law; Heaven; Earth; the Commander; Method and discipline.",
+    "aiText": "Righteousness is the ground upon which armies stand or fall. A commander may possess cunning, yet cunning alone wins battles and loses nations. The sovereign who neglects the grievances of his people hands his enemy a weapon sharper than bronze. Discipline without mercy breeds desertion; mercy without discipline breeds ruin. Consider these matters before the first drum sounds."
+  },
+  {
+    "id": "art-of-war-1-v4",
+    "humanId": "art-of-war-1",
+    "humanSource": "The Art of War by Sun Tzu, translated by Lionel Giles (1910), Project Gutenberg",
+    "humanText": "The art of war is of vital importance to the State. It is a matter of life and death, a road either to safety or to ruin. Hence it is a subject of inquiry which can on no account be neglected. The art of war, then, is governed by five constant factors, to be taken into account in one's deliberations, when seeking to determine the conditions obtaining in the field. These are: the Moral Law; Heaven; Earth; the Commander; Method and discipline.",
+    "aiText": "Counsel precedes the sword; without it, strength is mere violence. A ruler who cannot distinguish necessity from appetite will exhaust his people for nothing. There are three foundations of legitimate war: defense of the realm, relief of suffering, and the correction of grave wrong. Outside these, no campaign endures. The commander who knows this governs his own nature before he governs others."
+  }
+]

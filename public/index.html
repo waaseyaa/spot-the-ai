@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Spot the AI</title>
+    <script src="https://unpkg.com/vue@3.5.13/dist/vue.global.prod.js"></script>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #0f1115;
+        --panel: #171a21;
+        --panel-hover: #1f2430;
+        --border: #2a2f3a;
+        --text: #e7e9ee;
+        --muted: #8a93a4;
+        --accent: #7c5cff;
+        --good: #2ecc71;
+        --bad: #ff5c7a;
+      }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; padding: 0; }
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: ui-serif, Georgia, 'Times New Roman', serif;
+        min-height: 100vh;
+        padding: 2rem 1rem 4rem;
+      }
+      main {
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+      header {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+        font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+      }
+      h1 {
+        font-size: 1.75rem;
+        margin: 0;
+        letter-spacing: -0.02em;
+      }
+      h1 .accent { color: var(--accent); }
+      .score {
+        color: var(--muted);
+        font-variant-numeric: tabular-nums;
+        font-size: 0.95rem;
+      }
+      .score strong { color: var(--text); }
+      .header-right {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+      button.share {
+        background: transparent;
+        color: var(--accent);
+        border: 1px solid var(--accent);
+        padding: 0.4rem 0.9rem;
+        font-size: 0.85rem;
+        font-family: ui-sans-serif, system-ui, sans-serif;
+        font-weight: 600;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 120ms ease, color 120ms ease;
+        white-space: nowrap;
+      }
+      button.share:hover {
+        background: var(--accent);
+        color: white;
+      }
+      .prompt {
+        text-align: center;
+        color: var(--muted);
+        margin: 0 0 1.5rem;
+        font-family: ui-sans-serif, system-ui, sans-serif;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.25rem;
+      }
+      @media (max-width: 760px) {
+        .grid { grid-template-columns: 1fr; }
+      }
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 1.5rem 1.5rem 1.25rem;
+        cursor: pointer;
+        transition: transform 80ms ease, border-color 120ms ease, background 120ms ease;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        min-height: 280px;
+      }
+      .card:hover:not(.locked) {
+        background: var(--panel-hover);
+        border-color: var(--accent);
+        transform: translateY(-2px);
+      }
+      .card .label {
+        font-family: ui-sans-serif, system-ui, sans-serif;
+        font-size: 0.8rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+      .card .text {
+        font-size: 1.05rem;
+        line-height: 1.6;
+        white-space: pre-wrap;
+      }
+      .card.locked { cursor: default; }
+      .card.revealed-ai { border-color: var(--accent); }
+      .card.revealed-human { border-color: var(--border); }
+      .card .verdict {
+        font-family: ui-sans-serif, system-ui, sans-serif;
+        font-size: 0.85rem;
+        color: var(--muted);
+        margin-top: auto;
+      }
+      .card .verdict .tag {
+        display: inline-block;
+        padding: 0.15rem 0.5rem;
+        border-radius: 999px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        margin-right: 0.5rem;
+      }
+      .tag.ai { background: rgba(124, 92, 255, 0.18); color: var(--accent); }
+      .tag.human { background: rgba(46, 204, 113, 0.15); color: var(--good); }
+      .result {
+        margin: 1.5rem auto 0;
+        text-align: center;
+        font-family: ui-sans-serif, system-ui, sans-serif;
+      }
+      .result .headline {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+      }
+      .result .headline.correct { color: var(--good); }
+      .result .headline.wrong { color: var(--bad); }
+      .result .detail { color: var(--muted); font-size: 0.95rem; }
+      button.primary {
+        margin-top: 1rem;
+        background: var(--accent);
+        color: white;
+        border: 0;
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+        font-family: ui-sans-serif, system-ui, sans-serif;
+        font-weight: 600;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: filter 120ms ease;
+      }
+      button.primary:hover { filter: brightness(1.1); }
+      button.primary:disabled { opacity: 0.5; cursor: wait; }
+      .loading {
+        text-align: center;
+        color: var(--muted);
+        padding: 4rem 1rem;
+        font-family: ui-sans-serif, system-ui, sans-serif;
+      }
+      .error {
+        background: rgba(255, 92, 122, 0.1);
+        border: 1px solid var(--bad);
+        color: var(--bad);
+        padding: 1rem;
+        border-radius: 10px;
+        text-align: center;
+        font-family: ui-sans-serif, system-ui, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="app">
+      <header>
+        <h1>Spot the <span class="accent">AI</span></h1>
+        <div class="header-right">
+          <div class="score">
+            Score: <strong>{{ score }}</strong> / {{ played }}
+            <span v-if="played > 0"> · {{ accuracy }}%</span>
+          </div>
+          <button v-if="played > 0" class="share" @click="share">
+            {{ copied ? 'Copied!' : 'Share' }}
+          </button>
+        </div>
+      </header>
+
+      <p class="prompt">Two passages. One was written by a human, one by Claude. Pick the AI.</p>
+
+      <div v-if="error" class="error">{{ error }}</div>
+
+      <div v-else-if="loading" class="loading">Generating round…</div>
+
+      <template v-else-if="round">
+        <div class="grid">
+          <div
+            v-for="side in ['A', 'B']"
+            :key="side"
+            class="card"
+            :class="cardClass(side)"
+            @click="guess(side)"
+          >
+            <div class="label">Passage {{ side }}</div>
+            <div class="text">{{ side === 'A' ? round.textA : round.textB }}</div>
+            <div v-if="result" class="verdict">
+              <span class="tag" :class="sideIsAi(side) ? 'ai' : 'human'">
+                {{ sideIsAi(side) ? 'AI' : 'Human' }}
+              </span>
+              <span v-if="!sideIsAi(side)">{{ result.humanSource }}</span>
+            </div>
+          </div>
+        </div>
+
+        <div v-if="result" class="result">
+          <div class="headline" :class="result.correct ? 'correct' : 'wrong'">
+            {{ result.correct ? 'Correct.' : 'Fooled you.' }}
+          </div>
+          <div class="detail">
+            The AI passage was {{ result.aiSide }}.
+          </div>
+          <button class="primary" :disabled="loading" @click="nextRound">Next round</button>
+        </div>
+      </template>
+    </main>
+
+    <script>
+      const { createApp, ref, computed } = Vue;
+
+      createApp({
+        setup() {
+          const round = ref(null);
+          const result = ref(null);
+          const loading = ref(false);
+          const error = ref(null);
+          const score = ref(0);
+          const played = ref(0);
+          const history = ref([]); // booleans, one per guess
+          const copied = ref(false);
+
+          const SHARE_URL = 'https://spot-the-ai.oiatc.ca';
+
+          const accuracy = computed(() =>
+            played.value === 0 ? 0 : Math.round((score.value / played.value) * 100),
+          );
+
+          const shareText = computed(() => {
+            const grid = history.value
+              .map((ok) => (ok ? '✅' : '❌'))
+              .reduce((rows, mark, i) => {
+                if (i % 5 === 0) rows.push('');
+                rows[rows.length - 1] += mark;
+                return rows;
+              }, [])
+              .join('\n');
+            const lines = [
+              'Spot the AI 🤖',
+              `${score.value}/${played.value} correct (${accuracy.value}%)`,
+              grid,
+              'Can you tell which passage Claude wrote?',
+            ];
+            if (SHARE_URL) lines.push(SHARE_URL);
+            return lines.join('\n');
+          });
+
+          async function share() {
+            const text = shareText.value;
+            if (navigator.share) {
+              try {
+                await navigator.share({ title: 'Spot the AI', text });
+                return;
+              } catch (e) {
+                if (e.name === 'AbortError') return; // user dismissed
+              }
+            }
+            try {
+              await navigator.clipboard.writeText(text);
+            } catch (e) {
+              window.prompt('Copy your results:', text);
+              return;
+            }
+            copied.value = true;
+            setTimeout(() => (copied.value = false), 1800);
+          }
+
+          async function nextRound() {
+            loading.value = true;
+            error.value = null;
+            result.value = null;
+            round.value = null;
+            try {
+              const res = await fetch('/api/round');
+              if (!res.ok) throw new Error((await res.json()).error || 'round failed');
+              round.value = await res.json();
+            } catch (e) {
+              error.value = e.message;
+            } finally {
+              loading.value = false;
+            }
+          }
+
+          async function guess(side) {
+            if (!round.value || result.value) return;
+            try {
+              const res = await fetch('/api/guess', {
+                method: 'POST',
+                headers: { 'content-type': 'application/json' },
+                body: JSON.stringify({ roundId: round.value.roundId, pick: side }),
+              });
+              if (!res.ok) throw new Error((await res.json()).error || 'guess failed');
+              const data = await res.json();
+              result.value = data;
+              played.value += 1;
+              history.value.push(data.correct);
+              if (data.correct) score.value += 1;
+            } catch (e) {
+              error.value = e.message;
+            }
+          }
+
+          function sideIsAi(side) {
+            return result.value && result.value.aiSide === side;
+          }
+
+          function cardClass(side) {
+            if (!result.value) return '';
+            return ['locked', sideIsAi(side) ? 'revealed-ai' : 'revealed-human'];
+          }
+
+          nextRound();
+
+          return {
+            round, result, loading, error, score, played, accuracy,
+            copied, nextRound, guess, sideIsAi, cardClass, share,
+          };
+        },
+      }).mount('#app');
+    </script>
+  </body>
+</html>

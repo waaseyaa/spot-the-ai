@@ -1,0 +1,18 @@
+{
+  "name": "spot-the-ai",
+  "version": "0.1.0",
+  "description": "FaceMash-style game: guess which of two passages was written by AI.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "generate": "node generate-pool.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.98.0",
+    "dotenv": "^16.4.5"
+  }
+}

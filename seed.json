@@ -1,0 +1,74 @@
+[
+  {
+    "id": "moby-1",
+    "source": "Moby-Dick by Herman Melville (1851), Project Gutenberg",
+    "topic": "a wanderer drawn irresistibly to the sea, in introspective first-person Victorian prose",
+    "text": "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen, and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; then, I account it high time to get to sea as soon as I can."
+  },
+  {
+    "id": "pride-1",
+    "source": "Pride and Prejudice by Jane Austen (1813), Project Gutenberg",
+    "topic": "wry social observation about marriage and inheritance in Regency England, ironic omniscient narrator",
+    "text": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife. However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered the rightful property of some one or other of their daughters. My dear Mr. Bennet, said his lady to him one day, have you heard that Netherfield Park is let at last?"
+  },
+  {
+    "id": "tale-1",
+    "source": "A Tale of Two Cities by Charles Dickens (1859), Project Gutenberg",
+    "topic": "sweeping antithetical reflection on a turbulent revolutionary era, rhetorical Dickensian cadence",
+    "text": "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way."
+  },
+  {
+    "id": "frank-1",
+    "source": "Frankenstein by Mary Shelley (1818), Project Gutenberg",
+    "topic": "a scientist recounting the dreadful night a creature first opened its eyes, gothic first-person",
+    "text": "It was on a dreary night of November that I beheld the accomplishment of my toils. With an anxiety that almost amounted to agony, I collected the instruments of life around me, that I might infuse a spark of being into the lifeless thing that lay at my feet. It was already one in the morning; the rain pattered dismally against the panes, and my candle was nearly burnt out, when, by the glimmer of the half-extinguished light, I saw the dull yellow eye of the creature open; it breathed hard, and a convulsive motion agitated its limbs."
+  },
+  {
+    "id": "sherlock-1",
+    "source": "A Study in Scarlet by Arthur Conan Doyle (1887), Project Gutenberg",
+    "topic": "a Victorian doctor recalling his first impression of a brilliant, eccentric flatmate, dry first-person",
+    "text": "His very person and appearance were such as to strike the attention of the most casual observer. In height he was rather over six feet, and so excessively lean that he seemed to be considerably taller. His eyes were sharp and piercing, save during those intervals of torpor to which I have alluded; and his thin, hawk-like nose gave his whole expression an air of alertness and decision. His chin, too, had the prominence and squareness which mark the man of determination."
+  },
+  {
+    "id": "walden-1",
+    "source": "Walden by Henry David Thoreau (1854), Project Gutenberg",
+    "topic": "a deliberate retreat into the woods to live simply and confront essential questions, transcendentalist first-person",
+    "text": "I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived. I did not wish to live what was not life, living is so dear; nor did I wish to practise resignation, unless it was quite necessary. I wanted to live deep and suck out all the marrow of life, to live so sturdily and Spartan-like as to put to rout all that was not life."
+  },
+  {
+    "id": "huck-1",
+    "source": "Adventures of Huckleberry Finn by Mark Twain (1884), Project Gutenberg",
+    "topic": "an unschooled boy speaking colloquially about a recently published book and its author, vernacular first-person",
+    "text": "You don't know about me without you have read a book by the name of The Adventures of Tom Sawyer; but that ain't no matter. That book was made by Mr. Mark Twain, and he told the truth, mainly. There was things which he stretched, but mainly he told the truth. That is nothing. I never seen anybody but lied one time or another, without it was Aunt Polly, or the widow, or maybe Mary."
+  },
+  {
+    "id": "wuthering-1",
+    "source": "Wuthering Heights by Emily Brontë (1847), Project Gutenberg",
+    "topic": "an unwelcome guest's first dour encounter with a brooding landlord on a Yorkshire moor, gothic first-person",
+    "text": "1801. I have just returned from a visit to my landlord—the solitary neighbour that I shall be troubled with. This is certainly a beautiful country! In all England, I do not believe that I could have fixed on a situation so completely removed from the stir of society. A perfect misanthropist's heaven: and Mr. Heathcliff and I are such a suitable pair to divide the desolation between us. A capital fellow!"
+  },
+  {
+    "id": "kafka-1",
+    "source": "The Metamorphosis by Franz Kafka (1915), translated by David Wyllie, Project Gutenberg",
+    "topic": "a man wakes to find his body transformed into something monstrous, deadpan close third-person",
+    "text": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked."
+  },
+  {
+    "id": "alice-1",
+    "source": "Alice's Adventures in Wonderland by Lewis Carroll (1865), Project Gutenberg",
+    "topic": "a bored child by a riverbank distracted by a curious talking animal, whimsical close third-person",
+    "text": "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, 'and what is the use of a book,' thought Alice 'without pictures or conversations?' So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her."
+  },
+  {
+    "id": "dracula-1",
+    "source": "Dracula by Bram Stoker (1897), Project Gutenberg",
+    "topic": "a traveler's journal entry crossing into Eastern Europe, growing unease, late-Victorian first-person",
+    "text": "3 May. Bistritz.—Left Munich at 8:35 P. M., on 1st May, arriving at Vienna early next morning; should have arrived at 6:46, but train was an hour late. Buda-Pesth seems a wonderful place, from the glimpse which I got of it from the train and the little I could walk through the streets. I feared to go very far from the station, as we had arrived late and would start as near the correct time as possible. The impression I had was that we were leaving the West and entering the East."
+  },
+  {
+    "id": "art-of-war-1",
+    "source": "The Art of War by Sun Tzu, translated by Lionel Giles (1910), Project Gutenberg",
+    "topic": "terse aphorisms on strategy and the moral foundation of conflict, ancient treatise voice",
+    "text": "The art of war is of vital importance to the State. It is a matter of life and death, a road either to safety or to ruin. Hence it is a subject of inquiry which can on no account be neglected. The art of war, then, is governed by five constant factors, to be taken into account in one's deliberations, when seeking to determine the conditions obtaining in the field. These are: the Moral Law; Heaven; Earth; the Commander; Method and discipline."
+  }
+]
