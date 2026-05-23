@@ -208,21 +208,50 @@
       .result .headline.correct { color: var(--good); }
       .result .headline.wrong { color: var(--bad); }
       .result .detail { color: var(--muted); font-size: 0.95rem; }
-      button.primary {
-        margin-top: 1rem;
-        background: var(--accent);
-        color: white;
-        border: 0;
-        padding: 0.75rem 1.5rem;
-        font-size: 1rem;
+      .result-actions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.6rem;
+        margin-top: 1.25rem;
+      }
+      .result-actions button {
+        width: 100%;
+        max-width: 340px;
         font-family: ui-sans-serif, system-ui, sans-serif;
-        font-weight: 600;
         border-radius: 10px;
         cursor: pointer;
-        transition: filter 120ms ease;
       }
-      button.primary:hover { filter: brightness(1.1); }
-      button.primary:disabled { opacity: 0.5; cursor: wait; }
+      .share-cta {
+        background: var(--accent);
+        color: #fff;
+        border: 0;
+        padding: 0.95rem 1.5rem;
+        font-size: 1.1rem;
+        font-weight: 700;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.55rem;
+        box-shadow: 0 6px 20px rgba(124, 92, 255, 0.35);
+        transition: filter 120ms ease, transform 80ms ease, box-shadow 120ms ease;
+      }
+      .share-cta:hover {
+        filter: brightness(1.08);
+        transform: translateY(-1px);
+        box-shadow: 0 8px 26px rgba(124, 92, 255, 0.45);
+      }
+      .btn-next {
+        background: transparent;
+        color: var(--muted);
+        border: 1px solid var(--border);
+        padding: 0.65rem 1.5rem;
+        font-size: 0.95rem;
+        font-weight: 600;
+        transition: border-color 120ms ease, color 120ms ease;
+      }
+      .btn-next:hover { border-color: var(--accent); color: var(--text); }
+      .btn-next:disabled { opacity: 0.5; cursor: wait; }
       .loading {
         text-align: center;
         color: var(--muted);
@@ -249,9 +278,6 @@
             Score: <strong>{{ score }}</strong> / {{ played }}
             <span v-if="played > 0"> · {{ accuracy }}%</span>
           </div>
-          <button v-if="played > 0" class="share" @click="share">
-            {{ copied ? 'Copied!' : 'Share' }}
-          </button>
           <button class="share" @click="openStats">Stats</button>
         </div>
       </header>
@@ -287,9 +313,15 @@
             {{ result.correct ? 'Correct.' : 'Fooled you.' }}
           </div>
           <div class="detail">
-            The AI passage was {{ result.aiSide }}.
+            The AI passage was {{ result.aiSide }}. You've spotted {{ score }} of {{ played }} ({{ accuracy }}%).
           </div>
-          <button class="primary" :disabled="loading" @click="nextRound">Next round</button>
+          <div class="result-actions">
+            <button class="share-cta" @click="share">
+              <span aria-hidden="true">📣</span>
+              {{ copied ? 'Copied — now paste it!' : 'Share your score' }}
+            </button>
+            <button class="btn-next" :disabled="loading" @click="nextRound">Next round →</button>
+          </div>
         </div>
       </template>
 
