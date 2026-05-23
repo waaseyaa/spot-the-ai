@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Spot the AI — Stats</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>" />
+    <meta name="robots" content="noindex" />
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0f1115;
+        --panel: #171a21;
+        --border: #2a2f3a;
+        --text: #e7e9ee;
+        --muted: #8a93a4;
+        --accent: #7c5cff;
+        --good: #2ecc71;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+        padding: 2rem 1rem 4rem;
+      }
+      main { max-width: 920px; margin: 0 auto; }
+      header { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 1.75rem; }
+      h1 { font-size: 1.6rem; margin: 0; letter-spacing: -0.02em; }
+      h1 .accent { color: var(--accent); }
+      header a { color: var(--accent); text-decoration: none; font-size: 0.95rem; font-weight: 600; }
+      header a:hover { text-decoration: underline; }
+      h2 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); margin: 2rem 0 0.75rem; }
+      .tiles { display: grid; grid-template-columns: repeat(6, 1fr); gap: 0.75rem; }
+      @media (max-width: 720px) { .tiles { grid-template-columns: repeat(3, 1fr); } }
+      @media (max-width: 420px) { .tiles { grid-template-columns: repeat(2, 1fr); } }
+      .tile { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 1rem 0.75rem; text-align: center; }
+      .tile .big { font-size: 1.7rem; font-weight: 700; color: var(--accent); font-variant-numeric: tabular-nums; }
+      .tile .cap { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-top: 0.35rem; }
+      table { width: 100%; border-collapse: collapse; }
+      th, td { text-align: left; padding: 0.55rem 0.5rem; border-bottom: 1px solid var(--border); font-size: 0.92rem; }
+      th { color: var(--muted); font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; }
+      td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+      .bar-row { display: flex; align-items: center; gap: 0.75rem; }
+      .bar-track { flex: 1; height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
+      .bar-fill { height: 100%; background: var(--accent); }
+      .muted { color: var(--muted); }
+      .empty { color: var(--muted); font-style: italic; padding: 0.5rem; }
+      footer { margin-top: 2.5rem; color: var(--muted); font-size: 0.8rem; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Spot the <span class="accent">AI</span> · Stats</h1>
+        <a href="/">← Play</a>
+      </header>
+
+      <div id="root"><p class="muted">Loading…</p></div>
+
+      <footer>
+        Updates every 30 seconds. Last loaded <span id="loaded">—</span>.
+      </footer>
+    </main>
+
+    <script>
+      const $ = (id) => document.getElementById(id);
+      const pct = (n) => (n == null ? '—' : n + '%');
+      const shortSource = (s) => (s ? s.split(/,| by /)[0] : 'unknown');
+      const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+      function tile(big, cap) {
+        return `<div class="tile"><div class="big">${big}</div><div class="cap">${cap}</div></div>`;
+      }
+
+      function ratioTable(rows, label, max) {
+        if (!rows.length) return `<p class="empty">Not enough data yet.</p>`;
+        const cap = max || Math.max(...rows.map((r) => r.plays), 1);
+        return `<table><thead><tr><th>${label}</th><th class="num">accuracy</th><th class="num">plays</th></tr></thead><tbody>` +
+          rows.map((r) => `<tr>
+            <td>${esc(r.label)}</td>
+            <td class="num">${pct(r.accuracy)}</td>
+            <td class="num">${r.plays}</td>
+          </tr>`).join('') +
+          `</tbody></table>`;
+      }
+
+      function dayChart(rows) {
+        if (!rows.length) return `<p class="empty">Not enough data yet.</p>`;
+        return rows.slice().reverse().map((d) => `
+          <div class="bar-row">
+            <span class="muted" style="width:5.5rem">${d.day}</span>
+            <div class="bar-track"><div class="bar-fill" style="width:${d.accuracy}%"></div></div>
+            <span class="num" style="width:8rem">${pct(d.accuracy)} · ${d.plays} plays</span>
+          </div>`).join('');
+      }
+
+      async function load() {
+        try {
+          const s = await fetch('/api/stats').then((r) => r.json());
+          const avg = s.avg_decide_ms ? (s.avg_decide_ms / 1000).toFixed(1) + 's' : '—';
+          $('root').innerHTML = `
+            <div class="tiles">
+              ${tile(pct(s.accuracy), 'human accuracy')}
+              ${tile(s.total_guesses, 'guesses')}
+              ${tile(s.unique_sessions, 'players')}
+              ${tile(s.unique_visitors_today, 'today')}
+              ${tile(avg, 'avg decision')}
+              ${tile(s.rounds_served, 'rounds served')}
+            </div>
+
+            <h2>Most convincing AI passages</h2>
+            ${ratioTable(s.hardest_passages.map((p) => ({ label: shortSource(p.human_source), accuracy: p.accuracy, plays: p.plays })), 'passage')}
+
+            <h2>Accuracy by author</h2>
+            ${ratioTable(s.by_seed.map((p) => ({ label: shortSource(p.human_source) || p.human_id, accuracy: p.accuracy, plays: p.plays })), 'author')}
+
+            <h2>Accuracy by day</h2>
+            ${dayChart(s.by_day)}
+
+            <h2>By country</h2>
+            ${ratioTable(s.by_country.map((c) => ({ label: c.country, accuracy: c.accuracy, plays: c.plays })), 'country')}
+          `;
+          $('loaded').textContent = new Date().toLocaleTimeString();
+        } catch (e) {
+          $('root').innerHTML = `<p class="empty">Stats unavailable.</p>`;
+        }
+      }
+
+      load();
+      setInterval(load, 30000);
+    </script>
+  </body>
+</html>

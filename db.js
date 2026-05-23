@@ -101,7 +101,8 @@ export function getStats() {
   `).all();
 
   const bySeed = db.prepare(`
-    SELECT human_id, COUNT(*) plays, ROUND(100.0 * SUM(correct) / COUNT(*), 1) accuracy
+    SELECT human_id, MAX(human_source) human_source, COUNT(*) plays,
+           ROUND(100.0 * SUM(correct) / COUNT(*), 1) accuracy
     FROM guesses GROUP BY human_id HAVING plays >= 3 ORDER BY accuracy ASC
   `).all();
 

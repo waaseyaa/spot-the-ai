@@ -39,6 +39,8 @@ const trunc = (v, n) => (typeof v === 'string' ? v.slice(0, n) : null);
 
 app.get('/healthz', (req, res) => res.json({ ok: true, pool: pool.length }));
 
+app.get('/stats', (req, res) => res.sendFile(path.join(__dirname, 'public', 'stats.html')));
+
 app.get('/api/round', (req, res) => {
   const entry = pool[Math.floor(Math.random() * pool.length)];
   const aiSide = Math.random() < 0.5 ? 'A' : 'B';
