@@ -1,74 +1,206 @@
 [
   {
-    "id": "moby-1",
-    "source": "Moby-Dick by Herman Melville (1851), Project Gutenberg",
-    "topic": "a wanderer drawn irresistibly to the sea, in introspective first-person Victorian prose",
-    "text": "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen, and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; then, I account it high time to get to sea as soon as I can."
+    "id": "new-grub-street-0",
+    "source": "New Grub Street — George Gissing, Project Gutenberg",
+    "topic": "a late-Victorian realist novel about literary London and money",
+    "text": "Amy turned scornfully away from him. Blows and a curse would have overawed her, at all events for the moment; she would have felt: ‘Yes, he is a man, and I have put my destiny into his hands.’ His tears moved her to a feeling cruelly exultant; they were the sign of her superiority. It was she who should have wept, and never in her life had she been further from such display of weakness."
   },
   {
-    "id": "pride-1",
-    "source": "Pride and Prejudice by Jane Austen (1813), Project Gutenberg",
-    "topic": "wry social observation about marriage and inheritance in Regency England, ironic omniscient narrator",
-    "text": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife. However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered the rightful property of some one or other of their daughters. My dear Mr. Bennet, said his lady to him one day, have you heard that Netherfield Park is let at last?"
+    "id": "new-grub-street-1",
+    "source": "New Grub Street — George Gissing, Project Gutenberg",
+    "topic": "a late-Victorian realist novel about literary London and money",
+    "text": "‘Yes, I will tell you. My aim is to have easy command of all the pleasures desired by a cultivated man. I want to live among beautiful things, and never to be troubled by a thought of vulgar difficulties. I want to travel and enrich my mind in foreign countries. I want to associate on equal terms with refined and interesting people. I want to be known, to be familiarly referred to, to feel when I enter a room that people regard me with some curiosity.’"
   },
   {
-    "id": "tale-1",
-    "source": "A Tale of Two Cities by Charles Dickens (1859), Project Gutenberg",
-    "topic": "sweeping antithetical reflection on a turbulent revolutionary era, rhetorical Dickensian cadence",
-    "text": "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way."
+    "id": "wives-and-daughters-0",
+    "source": "Wives and Daughters — Elizabeth Gaskell, Project Gutenberg",
+    "topic": "a Victorian provincial domestic novel",
+    "text": "\"There! they are calling for us,\" exclaimed Molly, and with quick step, yet careful of their draperies, they made their way downstairs to the place where Mr. and Mrs. Gibson awaited them. Yes; Mr. Gibson was going,--even if he had to leave them afterwards to attend to any professional call. And Molly suddenly began to admire her father as a handsome man, when she saw him now, in full evening attire. Mrs. Gibson, too--how pretty she was! In short, it was true that no better-looking a party than these four people entered the Hollingford ball-room that evening."
   },
   {
-    "id": "frank-1",
-    "source": "Frankenstein by Mary Shelley (1818), Project Gutenberg",
-    "topic": "a scientist recounting the dreadful night a creature first opened its eyes, gothic first-person",
-    "text": "It was on a dreary night of November that I beheld the accomplishment of my toils. With an anxiety that almost amounted to agony, I collected the instruments of life around me, that I might infuse a spark of being into the lifeless thing that lay at my feet. It was already one in the morning; the rain pattered dismally against the panes, and my candle was nearly burnt out, when, by the glimmer of the half-extinguished light, I saw the dull yellow eye of the creature open; it breathed hard, and a convulsive motion agitated its limbs."
+    "id": "wives-and-daughters-1",
+    "source": "Wives and Daughters — Elizabeth Gaskell, Project Gutenberg",
+    "topic": "a Victorian provincial domestic novel",
+    "text": "\"And I think it my duty to be sharp, ay, and cross too, when I see young folks careless. And when I see my duty clear, I do it; I'm not one to shrink from it, and they ought to be grateful to me. It's not every one that will take the trouble of reproving them, as Mrs. Goodenough knows. I'm very fond of Molly Gibson, very, for her own sake and for her mother's too; I'm not sure if I don't think she's worth half-a-dozen Cynthias, but for all that she shouldn't break my best china teacup, and then sit doing nothing for her livelihood all the rest of the evening.\""
   },
   {
-    "id": "sherlock-1",
-    "source": "A Study in Scarlet by Arthur Conan Doyle (1887), Project Gutenberg",
-    "topic": "a Victorian doctor recalling his first impression of a brilliant, eccentric flatmate, dry first-person",
-    "text": "His very person and appearance were such as to strike the attention of the most casual observer. In height he was rather over six feet, and so excessively lean that he seemed to be considerably taller. His eyes were sharp and piercing, save during those intervals of torpor to which I have alluded; and his thin, hawk-like nose gave his whole expression an air of alertness and decision. His chin, too, had the prominence and squareness which mark the man of determination."
+    "id": "the-rise-of-silas-lapham-0",
+    "source": "The Rise of Silas Lapham — William Dean Howells, Project Gutenberg",
+    "topic": "a late-19th-century American realist novel of business and class",
+    "text": "Lapham walked back through the outer office to his own room without looking at Corey, and during the day he spoke to him only of business matters. That must have been his way of letting Corey see that he was not overcome by the honour of his father's visit. But he presented himself at Nantasket with the event so perceptibly on his mind that his wife asked: \"Well, Silas, has Rogers been borrowing any more money of you? I don't want you should let that thing go too far. You've done enough.\""
   },
   {
-    "id": "walden-1",
-    "source": "Walden by Henry David Thoreau (1854), Project Gutenberg",
-    "topic": "a deliberate retreat into the woods to live simply and confront essential questions, transcendentalist first-person",
-    "text": "I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived. I did not wish to live what was not life, living is so dear; nor did I wish to practise resignation, unless it was quite necessary. I wanted to live deep and suck out all the marrow of life, to live so sturdily and Spartan-like as to put to rout all that was not life."
+    "id": "the-rise-of-silas-lapham-1",
+    "source": "The Rise of Silas Lapham — William Dean Howells, Project Gutenberg",
+    "topic": "a late-19th-century American realist novel of business and class",
+    "text": "It blotted out the tender beauty of the day, and weighed down their hearts ever more heavily within them. They ceased to talk of it a hundred times, and still came back to it. They drove on and on. It began to be late. \"I guess we better go back, Si,\" said his wife; and as he turned without speaking, she pulled her veil down and began to cry softly behind it, with low little broken sobs."
   },
   {
-    "id": "huck-1",
-    "source": "Adventures of Huckleberry Finn by Mark Twain (1884), Project Gutenberg",
-    "topic": "an unschooled boy speaking colloquially about a recently published book and its author, vernacular first-person",
-    "text": "You don't know about me without you have read a book by the name of The Adventures of Tom Sawyer; but that ain't no matter. That book was made by Mr. Mark Twain, and he told the truth, mainly. There was things which he stretched, but mainly he told the truth. That is nothing. I never seen anybody but lied one time or another, without it was Aunt Polly, or the widow, or maybe Mary."
+    "id": "mcteague-0",
+    "source": "McTeague: A Story of San Francisco — Frank Norris, Project Gutenberg",
+    "topic": "a naturalist novel of 1890s San Francisco",
+    "text": "Besides all this, he began to observe the broader, larger interests of life, interests that affected him not as an individual, but as a member of a class, a profession, or a political party. He read the papers, he subscribed to a dental magazine; on Easter, Christmas, and New Year's he went to church with Trina. He commenced to have opinions, convictions--it was not fair to deprive tax-paying women of the privilege to vote; a university education should not be a prerequisite for admission to a dental college; the Catholic priests were to be restrained in their efforts to gain control of the public schools."
   },
   {
-    "id": "wuthering-1",
-    "source": "Wuthering Heights by Emily Brontë (1847), Project Gutenberg",
-    "topic": "an unwelcome guest's first dour encounter with a brooding landlord on a Yorkshire moor, gothic first-person",
-    "text": "1801. I have just returned from a visit to my landlord—the solitary neighbour that I shall be troubled with. This is certainly a beautiful country! In all England, I do not believe that I could have fixed on a situation so completely removed from the stir of society. A perfect misanthropist's heaven: and Mr. Heathcliff and I are such a suitable pair to divide the desolation between us. A capital fellow!"
+    "id": "mcteague-1",
+    "source": "McTeague: A Story of San Francisco — Frank Norris, Project Gutenberg",
+    "topic": "a naturalist novel of 1890s San Francisco",
+    "text": "A week passed, then a fortnight, then a month. It was a month of the greatest anxiety and unquietude for Trina. McTeague was out of a job, could find nothing to do; and Trina, who saw the impossibility of saving as much money as usual out of her earnings under the present conditions, was on the lookout for cheaper quarters. In spite of his outcries and sulky resistance Trina had induced her husband to consent to such a move, bewildering him with a torrent of phrases and marvellous columns of figures by which she proved conclusively that they were in a condition but one remove from downright destitution."
   },
   {
-    "id": "kafka-1",
-    "source": "The Metamorphosis by Franz Kafka (1915), translated by David Wyllie, Project Gutenberg",
-    "topic": "a man wakes to find his body transformed into something monstrous, deadpan close third-person",
-    "text": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked."
+    "id": "the-old-wives-tale-0",
+    "source": "The Old Wives' Tale — Arnold Bennett, Project Gutenberg",
+    "topic": "an Edwardian English provincial novel of ordinary lives",
+    "text": "On the Sunday morning after the day on which the Signal had printed the menu of Daniel Povey's supreme breakfast, and the exact length of the 'drop' which the executioner had administered to him, Constance and Cyril stood together at the window of the large bedroom. The boy was in his best clothes; but Constance's garments gave no sign of the Sabbath. She wore a large apron over an old dress that was rather tight for her. She was pale and looked ill."
   },
   {
-    "id": "alice-1",
-    "source": "Alice's Adventures in Wonderland by Lewis Carroll (1865), Project Gutenberg",
-    "topic": "a bored child by a riverbank distracted by a curious talking animal, whimsical close third-person",
-    "text": "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, 'and what is the use of a book,' thought Alice 'without pictures or conversations?' So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her."
+    "id": "the-old-wives-tale-1",
+    "source": "The Old Wives' Tale — Arnold Bennett, Project Gutenberg",
+    "topic": "an Edwardian English provincial novel of ordinary lives",
+    "text": "She gathered that he was packing his clothes. At first she did not comprehend his reference to beginning the New Year. Then his meaning revealed itself. That story to her mother about having been attacked by ruffians at the bottom of King Street had been an invention, a ruse to account plausibly for his presence on her mother's doorstep! And she had never suspected that the story was not true. In spite of her experience of his lying, she had never suspected that that particular statement was a lie. What a simpleton she was!"
   },
   {
-    "id": "dracula-1",
-    "source": "Dracula by Bram Stoker (1897), Project Gutenberg",
-    "topic": "a traveler's journal entry crossing into Eastern Europe, growing unease, late-Victorian first-person",
-    "text": "3 May. Bistritz.—Left Munich at 8:35 P. M., on 1st May, arriving at Vienna early next morning; should have arrived at 6:46, but train was an hour late. Buda-Pesth seems a wonderful place, from the glimpse which I got of it from the train and the little I could walk through the streets. I feared to go very far from the station, as we had arrived late and would start as near the correct time as possible. The impression I had was that we were leaving the West and entering the East."
+    "id": "sister-carrie-0",
+    "source": "Sister Carrie: A Novel — Theodore Dreiser, Project Gutenberg",
+    "topic": "a turn-of-the-century American naturalist novel of the city",
+    "text": "Her little brain had been surging with contradictory feelings—shame at exposure, shame at Hurstwood’s perfidy, anger at Drouet’s deception, the mockery he had made at her. Now one clear idea came into her head. He was at fault. There was no doubt about it. Why did he bring Hurstwood out—Hurstwood, a married man, and never say a word to her? Never mind now about Hurstwood’s perfidy—why had he done this? Why hadn’t he warned her? There he stood now, guilty of this miserable breach of confidence and talking about what he had done for her!"
   },
   {
-    "id": "art-of-war-1",
-    "source": "The Art of War by Sun Tzu, translated by Lionel Giles (1910), Project Gutenberg",
-    "topic": "terse aphorisms on strategy and the moral foundation of conflict, ancient treatise voice",
-    "text": "The art of war is of vital importance to the State. It is a matter of life and death, a road either to safety or to ruin. Hence it is a subject of inquiry which can on no account be neglected. The art of war, then, is governed by five constant factors, to be taken into account in one's deliberations, when seeking to determine the conditions obtaining in the field. These are: the Moral Law; Heaven; Earth; the Commander; Method and discipline."
+    "id": "sister-carrie-1",
+    "source": "Sister Carrie: A Novel — Theodore Dreiser, Project Gutenberg",
+    "topic": "a turn-of-the-century American naturalist novel of the city",
+    "text": "His first inclination was to be elated, and he confided to Carrie that he thought he had made an excellent arrangement. Time, however, introduced food for reflection. He found his partner to be very disagreeable. Frequently he was the worse for liquor, which made him surly. This was the last thing which Hurstwood was used to in business. Besides, the business varied. It was nothing like the class of patronage which he had enjoyed in Chicago. He found that it would take a long time to make friends. These people hurried in and out without seeking the pleasures of friendship. It was no gathering or lounging place. Whole days and weeks passed without one such hearty greeting as he had been wont to enjoy every day in Chicago."
+  },
+  {
+    "id": "the-house-of-mirth-0",
+    "source": "The House of Mirth — Edith Wharton, Project Gutenberg",
+    "topic": "an Edwardian New York society novel",
+    "text": "She waited long enough on the doorstep to wonder that Judy’s presence in town was not signalized by a greater promptness in admitting her; and her surprise was increased when, instead of the expected footman, pushing his shoulders into a tardy coat, a shabby care-taking person in calico let her into the shrouded hall. Trenor, however, appeared at once on the threshold of the drawing-room, welcoming her with unusual volubility while he relieved her of her cloak and drew her into the room."
+  },
+  {
+    "id": "the-house-of-mirth-1",
+    "source": "The House of Mirth — Edith Wharton, Project Gutenberg",
+    "topic": "an Edwardian New York society novel",
+    "text": "“Alone—? When he was with us?” Lily laughed, but her laugh faded into gravity under the prolonged implication of Mrs. Fisher’s look. “We DID come back alone—if that’s so very dreadful! But whose fault was it? The Duchess was spending the night at Cimiez with the Crown Princess; Bertha got bored with the show, and went off early, promising to meet us at the station. We turned up on time, but she didn’t—she didn’t turn up at all!”"
+  },
+  {
+    "id": "the-secret-agent-0",
+    "source": "The Secret Agent: A Simple Tale — Joseph Conrad, Project Gutenberg",
+    "topic": "an Edwardian novel of London streets and intrigue",
+    "text": "This end, conceived in the astuteness of her uneasy heart, the old woman had pursued with secrecy and determination. That was the time when her daughter Winnie could not help passing a remark to Mr Verloc that “mother has been spending half-crowns and five shillings almost every day this last week in cab fares.” But the remark was not made grudgingly. Winnie respected her mother’s infirmities. She was only a little surprised at this sudden mania for locomotion. Mr Verloc, who was sufficiently magnificent in his way, had grunted the remark impatiently aside as interfering with his meditations. These were frequent, deep, and prolonged; they bore upon a matter more important than five shillings. Distinctly more important, and beyond all comparison more difficult to consider in all its aspects with philosophical serenity."
+  },
+  {
+    "id": "the-secret-agent-1",
+    "source": "The Secret Agent: A Simple Tale — Joseph Conrad, Project Gutenberg",
+    "topic": "an Edwardian novel of London streets and intrigue",
+    "text": "A man standing in the middle of the shop was inspecting it with a swift, cool, all-round glance. His eyes ran over the walls, took in the ceiling, noted the floor—all in a moment. The points of a long fair moustache fell below the line of the jaw. He smiled the smile of an old if distant acquaintance, and Mrs Verloc remembered having seen him before. Not a customer. She softened her “customer stare” to mere indifference, and faced him across the counter."
+  },
+  {
+    "id": "the-magnificent-ambersons-0",
+    "source": "The Magnificent Ambersons — Booth Tarkington, Project Gutenberg",
+    "topic": "an early-20th-century American family novel",
+    "text": "“Aunt Fanny doesn’t look much better,” George said to his mother, a few minutes after their arrival, on the night they got home. He stood with a towel in her doorway, concluding some sketchy ablutions before going downstairs to a supper which Fanny was hastily preparing for them. Isabel had not telegraphed; Fanny was taken by surprise when they drove up in a station cab at eleven o’clock; and George instantly demanded “a little decent food.” (Some criticisms of his had publicly disturbed the composure of the dining-car steward four hours previously.) “I never saw anybody take things so hard as she seems to,” he observed, his voice muffled by the towel. “Doesn’t she get over it at all? I thought she’d feel better when we turned over the insurance to her—gave it to her absolutely, without any strings to it. She looks about a thousand years old!”"
+  },
+  {
+    "id": "the-magnificent-ambersons-1",
+    "source": "The Magnificent Ambersons — Booth Tarkington, Project Gutenberg",
+    "topic": "an early-20th-century American family novel",
+    "text": "His uncle sighed profoundly, picked up his tie and, preoccupied with despondency, twisted the strip of white lawn till it became unwearable. Meanwhile, he tried to enlighten his nephew. “Gossip is never fatal, Georgie,” he said, “until it is denied. Gossip goes on about every human being alive and about all the dead that are alive enough to be remembered, and yet almost never does any harm until some defender makes a controversy. Gossip’s a nasty thing, but it’s sickly, and if people of good intentions will let it entirely alone, it will die, ninety-nine times out of a hundred.”"
+  },
+  {
+    "id": "middlemarch-0",
+    "source": "Middlemarch — George Eliot, Project Gutenberg",
+    "topic": "a Victorian provincial novel of ideas and character",
+    "text": "“Nothing of the kind,” said Mr. Brooke. “The Tories bribe, you know: Hawley and his set bribe with treating, hot codlings, and that sort of thing; and they bring the voters drunk to the poll. But they are not going to have it their own way in future—not in future, you know. Middlemarch is a little backward, I admit—the freemen are a little backward. But we shall educate them—we shall bring them on, you know. The best people there are on our side.”"
+  },
+  {
+    "id": "middlemarch-1",
+    "source": "Middlemarch — George Eliot, Project Gutenberg",
+    "topic": "a Victorian provincial novel of ideas and character",
+    "text": "After all, however, there was a dull space of time which needed relieving with bread and cheese and ale, and when he was seated alone with these resources in the wainscoted parlor, he suddenly slapped his knee, and exclaimed, “Ladislaw!” That action of memory which he had tried to set going, and had abandoned in despair, had suddenly completed itself without conscious effort—a common experience, agreeable as a completed sneeze, even if the name remembered is of no value. Raffles immediately took out his pocket-book, and wrote down the name, not because he expected to use it, but merely for the sake of not being at a loss if he ever did happen to want it. He was not going to tell Bulstrode: there was no actual good in telling, and to a mind like that of Mr. Raffles there is always probable good in a secret."
+  },
+  {
+    "id": "fathers-and-sons-0",
+    "source": "Fathers and Sons — Ivan Turgenev, Project Gutenberg",
+    "topic": "a 19th-century Russian novel in English translation",
+    "text": "Nor had her sangfroid really been shattered. Rather, she was a little agitated--so little that, when, for some unknown reason, she shed a tear or two, those tears owed their origin not to any deep emotion, to the fact that she was wounded, but to a sense of having involuntarily been at fault in permitting certain vague yearnings--a certain consciousness of the transience of life, a certain desire for novelty--to urge her towards the boundary line. And over that boundary line she had peeped. And in front of her she had beheld, not an abyss, but a waste, a sheer ugliness."
+  },
+  {
+    "id": "fathers-and-sons-1",
+    "source": "Fathers and Sons — Ivan Turgenev, Project Gutenberg",
+    "topic": "a 19th-century Russian novel in English translation",
+    "text": "Nor of the fact that, each morning, he had gone downstairs in his slippers to confer with Timotheitch; nor of the fact that, producing, with tremulous fingers, one ragged banknote after another, he had commissioned his henchman to make various purchases with special reference to the question of eatables (in particular, of a certain red wine which he had noticed the young men to like); no, of none of these facts did Vasili Ivanitch make any mention."
+  },
+  {
+    "id": "the-awakening-0",
+    "source": "The Awakening, and Selected Short Stories — Kate Chopin, Project Gutenberg",
+    "topic": "a turn-of-the-century American novel of interior awakening",
+    "text": "Monsieur Ratignolle was delighted to see her, though he found her looking not so well as at Grand Isle, and he advised a tonic. He talked a good deal on various topics, a little politics, some city news and neighborhood gossip. He spoke with an animation and earnestness that gave an exaggerated importance to every syllable he uttered. His wife was keenly interested in everything he said, laying down her fork the better to listen, chiming in, taking the words out of his mouth."
+  },
+  {
+    "id": "the-awakening-1",
+    "source": "The Awakening, and Selected Short Stories — Kate Chopin, Project Gutenberg",
+    "topic": "a turn-of-the-century American novel of interior awakening",
+    "text": "“I’m jealous of your thoughts to-night. They’re making you a little kinder than usual; but some way I feel as if they were wandering, as if they were not here with me.” She only looked at him and smiled. His eyes were very near. He leaned upon the lounge with an arm extended across her, while the other hand still rested upon her hair. They continued silently to look into each other’s eyes. When he leaned forward and kissed her, she clasped his head, holding his lips to hers."
+  },
+  {
+    "id": "martin-eden-0",
+    "source": "Martin Eden — Jack London, Project Gutenberg",
+    "topic": "an early-20th-century American novel of ambition and self-education",
+    "text": "On a day when she had filled her brood with what was left in the house, Maria invested her last fifteen cents in a gallon of cheap wine. Martin, coming into her kitchen to fetch water, was invited to sit down and drink. He drank her very-good health, and in return she drank his. Then she drank to prosperity in his undertakings, and he drank to the hope that James Grant would show up and pay her for his washing. James Grant was a journeymen carpenter who did not always pay his bills and who owed Maria three dollars."
+  },
+  {
+    "id": "martin-eden-1",
+    "source": "Martin Eden — Jack London, Project Gutenberg",
+    "topic": "an early-20th-century American novel of ambition and self-education",
+    "text": "“It is not in what you succeed in doing that you get your joy, but in the doing of it. You can’t tell me. I know it. You know it. Beauty hurts you. It is an everlasting pain in you, a wound that does not heal, a knife of flame. Why should you palter with magazines? Let beauty be your end. Why should you mint beauty into gold? Anyway, you can’t; so there’s no use in my getting excited over it. You can read the magazines for a thousand years and you won’t find the value of one line of Keats. Leave fame and coin alone, sign away on a ship to-morrow, and go back to your sea.”"
+  },
+  {
+    "id": "herland-0",
+    "source": "Herland — Charlotte Perkins Gilman, Project Gutenberg",
+    "topic": "an early-20th-century utopian novel of observation",
+    "text": "“Men!” I began to answer, rather hotly, and then saw the gulf before me. None of us wanted these women to think that our women, of whom we boasted so proudly, were in any way inferior to them. I am ashamed to say that I equivocated. I told her of certain criminal types of women--perverts, or crazy, who had been known to commit infanticide. I told her, truly enough, that there was much in our land which was open to criticism, but that I hated to dwell on our defects until they understood us and our conditions better."
+  },
+  {
+    "id": "herland-1",
+    "source": "Herland — Charlotte Perkins Gilman, Project Gutenberg",
+    "topic": "an early-20th-century utopian novel of observation",
+    "text": "To get an idea of their attitude you have to hold in mind their extremely high sense of solidarity. They were not each choosing a lover; they hadn’t the faintest idea of love--sex-love, that is. These girls--to each of whom motherhood was a lodestar, and that motherhood exalted above a mere personal function, looked forward to as the highest social service, as the sacrament of a lifetime--were now confronted with an opportunity to make the great step of changing their whole status, of reverting to their earlier bi-sexual order of nature."
+  },
+  {
+    "id": "the-red-badge-of-courage-0",
+    "source": "The Red Badge of Courage: An Episode of the American Civil War — Stephen Crane, Project Gutenberg",
+    "topic": "a Civil War novel in tense impressionist prose",
+    "text": "“Yeh know Tom Jamison, he lives next door t’ me up home. He’s a nice feller, he is, an’ we was allus good friends. Smart, too. Smart as a steel trap. Well, when we was a-fightin’ this atternoon, all-of-a-sudden he begin t’ rip up an’ cuss an’ beller at me. ‘Yer shot, yeh blamed infernal!’—he swear horrible—he ses t’ me. I put up m’ hand t’ m’ head an’ when I looked at m’ fingers, I seen, sure ’nough, I was shot. I give a holler an’ begin t’ run, but b’fore I could git away another one hit me in th’ arm an’ whirl’ me clean ’round. I got skeared when they was all a-shootin’ b’hind me an’ I run t’ beat all, but I cotch it pretty bad. I’ve an idee I’d a’ been fightin’ yit, if t’wasn’t fer Tom Jamison.”"
+  },
+  {
+    "id": "the-red-badge-of-courage-1",
+    "source": "The Red Badge of Courage: An Episode of the American Civil War — Stephen Crane, Project Gutenberg",
+    "topic": "a Civil War novel in tense impressionist prose",
+    "text": "The youth wished to launch a joke—a quotation from newspapers. He desired to say, “All quiet on the Rappahannock,” but the guns refused to permit even a comment upon their uproar. He never successfully concluded the sentence. But at last the guns stopped, and among the men in the rifle pits rumors again flew, like birds, but they were now for the most part black creatures who flapped their wings drearily near to the ground and refused to rise on any wings of hope. The men’s faces grew doleful from the interpreting of omens. Tales of hesitation and uncertainty on the part of those high in place and responsibility came to their ears. Stories of disaster were borne into their minds with many proofs. This din of musketry on the right, growing like a released genie of sound, expressed and emphasized the army’s plight."
+  },
+  {
+    "id": "the-good-soldier-0",
+    "source": "The Good Soldier — Ford Madox Ford, Project Gutenberg",
+    "topic": "an early modernist novel of unreliable recollection",
+    "text": "So, for a time, if such a passion come to fruition, the man will get what he wants. He will get the moral support, the encouragement, the relief from the sense of loneliness, the assurance of his own worth. But these things pass away; inevitably they pass away as the shadows pass across sundials. It is sad, but it is so. The pages of the book will become familiar; the beautiful corner of the road will have been turned too many times. Well, this is the saddest story."
+  },
+  {
+    "id": "the-good-soldier-1",
+    "source": "The Good Soldier — Ford Madox Ford, Project Gutenberg",
+    "topic": "an early modernist novel of unreliable recollection",
+    "text": "I do not know much about English legal procedure—I cannot, I mean, give technical details of how they tied him up. But I know that, two days later, without her having said more than I have reported to you, Leonora and her attorney had become the trustees, as I believe it is called, of all Edward's property, and there was an end of Edward as the good landlord and father of his people. He went out."
+  },
+  {
+    "id": "sentimental-education-0",
+    "source": "Sentimental Education — Gustave Flaubert, Project Gutenberg",
+    "topic": "a 19th-century French novel in English translation",
+    "text": "And, when they were in the street, he chatted as naturally as usual. Unquestionably he was not a man of jealous disposition, or else he was too good-natured to get angry. Besides, his time was devoted to serving his country. He never left off his uniform now. On the twenty-ninth of March he had defended the offices of the Presse. When the Chamber was invaded, he distinguished himself by his courage, and he was at the banquet given to the National Guard at Amiens."
+  },
+  {
+    "id": "sentimental-education-1",
+    "source": "Sentimental Education — Gustave Flaubert, Project Gutenberg",
+    "topic": "a 19th-century French novel in English translation",
+    "text": "The keeper of the restaurant at the opposite side of the street brought them soup. But Pere Roque had passed through too exciting an ordeal to be able to control his emotions. \"He is not likely to die;\" and at dessert he had a sort of fainting fit. A doctor was at once sent for, and he prescribed a potion. Then, when M. Roque was in bed, he asked to be as well wrapped up as possible in order to bring on perspiration. He gasped; he moaned."
   }
 ]
